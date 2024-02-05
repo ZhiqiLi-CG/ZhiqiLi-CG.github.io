@@ -1,0 +1,217 @@
+[
+{ 
+"name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
+"ref":"", 
+"conference":"SIGGRAPH under review,2024", 
+"author":[
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"Barney (Barnabás) Börcsök"
+    },
+    {
+        "name":"Duowen Chen"
+    },
+    {
+        "name":"Yutong Sun"
+    },
+    {
+        "ref":"https://faculty.cc.gatech.edu/~bozhu/",
+        "name":"Bo Zhu"
+    },
+    {
+        "ref":"https://faculty.cc.gatech.edu/~turk/",
+        "name":"Greg Turk"
+    }
+ ],
+ "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
+ "cofirst":false
+},
+{ 
+"name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
+"ref":"", 
+"conference":"ICML under review,2024", 
+"author":[
+    {
+        "name":"Zexi Li*",
+        "ref":"https://zexilee.github.io/about-zexili/"
+    },
+    {
+        "name":"Jie Lin*"
+    },
+    {
+        "name":"Zhiqi Li*"
+    },
+    {
+        "name":"Didi Zhu"
+    },
+    {
+        "ref":"https://wuchaozju.github.io/",
+        "name":"Chao Wu"
+    }
+ ],
+ "description":"Theoretical analysis about linear mode connectivity in deep learning theory.  In this work, I propose the project, prove theorems and write code.",
+ "cofirst":true
+},
+{ 
+"name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
+"ref":"", 
+"conference":"ICML under review,2024", 
+"author":[
+    {
+        "name":"Zexi Li",
+        "ref":"https://zexilee.github.io/about-zexili/"
+    },
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"Tao Shen",
+        "ref":"https://scholar.google.com/citations?user=MeaDj20AAAAJ&hl=zh-CN&authuser=1/"
+    },
+    {
+        "name":"Tao Lin",
+        "ref":"https://tlin-taolin.github.io/"
+    },
+    {
+        "ref":"https://wuchaozju.github.io/",
+        "name":"Chao Wu"
+    }
+ ],
+ "description":"Theoretical analysis about linear mode connectivity in deep learning theory.  In this work, I propose the project, prove theorems and write code.",
+ "cofirst":false
+},
+{ 
+"name":"Swift Parameter-free Attention Network for Efficient Super-Resolution.", 
+"ref":"https://proceedings.mlr.press/v162/zhang22p.html", 
+"conference":"CVPR under review,2024", 
+"author":[
+    {
+        "name":"Cheng Wan*",
+        "ref":"https://jornywan.github.io/"
+    },
+    {
+        "name":"Hongyuan Yu*"
+    },
+    {
+        "name":"Zhiqi Li*",
+        "ref":"zhiqilicg.github.io"
+    },
+    {
+        "name":"Yihang Chen"
+    },
+    {
+        "name":"Yajun Zou"
+    },
+    {
+        "name":"Yuqing Liu"
+    },
+    {
+        "name":"Xuanwu Yin"
+    },
+    {
+        "name":"Kunlong Zuo"
+    }
+ ],
+ "description":"A swift parameter-free attention-based super-resolution achitecture.  In this work, I utilize knowledge of deep learning theory to validate and enhance network architectures.",
+ "cofirst":true
+},
+{ 
+"name":"RemoteTouch: Enhancing Immersive 3D Video Communication with Hand Touch.", 
+"ref":"https://arxiv.org/abs/2302.14365", 
+"conference":"IEEE VR,2023", 
+"author":[
+    {
+        "name":"Yizhong Zhang*",
+        "ref":"https://www.microsoft.com/en-us/research/people/yizzhan/"
+    },
+    {
+        "name":"Zhiqi Li*",
+        "ref":"zhiqilicg.github.io"
+    },
+    {
+        "ref":"https://www.linkedin.com/in/sicheng-xu-b4b0a415b/?originalSubdomain=cn/",
+        "name":"Sicheng Xu"
+    },
+    {
+        "name":"Chong Li"
+    },
+    {
+        "ref":"https://jlyang.org",
+        "name":"Jiaolong Yang"
+    },
+    {
+        "name":"Xin Tong",
+        "ref":"https://www.microsoft.com/en-us/research/people/xtong/"
+    },
+    {
+        "name":"Baining Guo",
+        "ref":"https://www.microsoft.com/en-us/research/people/bainguo/"
+    }
+ ],
+ "description":" A immersive virtual-meeting system, with assistance of dual hand infomation, which is implemented by computer graphics techniques.",
+ "cofirst":true
+},
+{ 
+"name":"Federated Learning with Label Distribution Skew via Logits Calibration.", 
+"ref":"https://proceedings.mlr.press/v162/zhang22p.html", 
+"conference":"ICML spotlight,2022", 
+"author":[
+    {
+        "name":"Jie Zhang",
+        "ref":"https://zj-jayzhang.github.io/"
+    },
+    {
+        "name":"Zhiqi Li",
+        "ref":"zhiqilicg.github.io"
+    },
+    {
+        "name":"Bo Li"
+    },
+    {
+        "name":"Jianghe Xu"
+    },
+    {
+        "name":"Shuang Wu"
+    },
+    {
+        "name":"Shouhong Ding"
+    },
+    {
+        "name":"Chao Wu",
+        "ref":"https://wuchaozju.github.io/"
+    }
+ ],
+ "description":"A federated method to tackle Non IID problem. In this work, I utilize knowledge of deep learning theory to validate the methods.",
+ "cofirst":false
+},
+{ 
+"name":"Unveiling Linear Mode Connectivity of Re-basin from Neuron Distribution Perspective.", 
+"ref":"https://openreview.net/forum?id=RzOm9oOSzm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)", 
+"conference":"preprint", 
+"author":[
+    {
+        "name":"Zhiqi Li*"
+    },
+    {
+        "ref":"https://zexilee.github.io/about-zexili/",
+        "name":"Zexi Li*"
+    },
+    {
+        "name":"Mian Wu*",
+        "ref":"https://www.linkedin.com/in/mian-wu-65264024b/"
+    },
+    {
+        "name":"Cheng Wan",
+        "ref":"https://jornywan.github.io/"
+    },
+    {
+        "ref":"https://wuchaozju.github.io/",
+        "name":"Chao Wu"
+    }
+ ],
+ "description":"Theoretical analysis about linear mode connectivity in deep learning theory.  In this work, I propose the project, prove theorems and write code.",
+ "cofirst":true
+}
+]
