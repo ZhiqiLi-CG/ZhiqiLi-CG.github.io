@@ -2,7 +2,7 @@
 { 
 "name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
 "ref":"", 
-"conference":"SIGGRAPH under review,2024", 
+"conference":"SIGGRAPH,2024(Accept)", 
 "author":[
     {
         "name":"Zhiqi Li"
@@ -57,7 +57,7 @@
 { 
 "name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
 "ref":"", 
-"conference":"ICML under review,2024", 
+"conference":"ICML,2024(reject)", 
 "author":[
     {
         "name":"Zexi Li",
@@ -84,8 +84,8 @@
 },
 { 
 "name":"Swift Parameter-free Attention Network for Efficient Super-Resolution.", 
-"ref":"https://proceedings.mlr.press/v162/zhang22p.html", 
-"conference":"CVPR under review,2024", 
+"ref":"", 
+"conference":"CVPR workshop(NTIRE),2024", 
 "author":[
     {
         "name":"Cheng Wan*",
