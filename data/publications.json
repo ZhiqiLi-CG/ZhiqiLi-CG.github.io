@@ -1,8 +1,62 @@
 [
 { 
-"name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
-"ref":"", 
-"conference":"SIGGRAPH,2024(Accept)", 
+    "name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
+    "ref":"", 
+    "conference":"SIGGRAPH Asian,2024(Under review)", 
+    "author":[
+        {
+            "name":"Zhiqi Li"
+        },
+        {
+            "name":"anonymous author"
+        },
+        {
+            "name":"anonymous author"
+        },
+        {
+            "name":"anonymous author"
+        },
+        {
+            "name":"anonymous author"
+        },
+        {
+            "name":"anonymous author"
+        }
+        ],
+        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
+        "cofirst":false
+},
+{ 
+    "name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
+    "ref":"", 
+    "conference":"SIGGRAPH Asian,2024(Under review)", 
+    "author":[
+        {
+            "name":"anonymous author"
+        },
+        {
+            "name":"Zhiqi Li"
+        },
+        {
+            "name":"anonymous author"
+        },
+        {
+            "name":"anonymous author"
+        },
+        {
+            "name":"anonymous author"
+        },
+        {
+            "name":"anonymous author"
+        }
+        ],
+        "description":"Fluid simulation.  In this work, I assisted with the theoretical and methodological parts",
+        "cofirst":false
+},
+{ 
+"name":"Lagrangian Covector Fluid with Free Surface", 
+"ref":"https://zhiqili-cg.github.io/CovectorFluidFreeSurface/", 
+"conference":"SIGGRAPH,2024", 
 "author":[
     {
         "name":"Zhiqi Li"
@@ -31,7 +85,7 @@
 { 
 "name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
 "ref":"", 
-"conference":"ICML under review,2024", 
+"conference":"NIPS under review,2024", 
 "author":[
     {
         "name":"Zexi Li*",
@@ -53,34 +107,6 @@
  ],
  "description":"Theoretical analysis about linear mode connectivity in deep learning theory.  In this work, I propose the project, prove theorems and write code.",
  "cofirst":true
-},
-{ 
-"name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
-"ref":"", 
-"conference":"ICML under review,2024(reject)", 
-"author":[
-    {
-        "name":"Zexi Li",
-        "ref":"https://zexilee.github.io/about-zexili/"
-    },
-    {
-        "name":"Zhiqi Li"
-    },
-    {
-        "name":"Tao Shen",
-        "ref":"https://scholar.google.com/citations?user=MeaDj20AAAAJ&hl=zh-CN&authuser=1/"
-    },
-    {
-        "name":"Tao Lin",
-        "ref":"https://tlin-taolin.github.io/"
-    },
-    {
-        "ref":"https://wuchaozju.github.io/",
-        "name":"Chao Wu"
-    }
- ],
- "description":"Theoretical analysis about linear mode connectivity in deep learning theory.  In this work, I propose the project, prove theorems and write code.",
- "cofirst":false
 },
 { 
 "name":"Swift Parameter-free Attention Network for Efficient Super-Resolution.", 
@@ -203,7 +229,7 @@
         "ref":"https://www.linkedin.com/in/mian-wu-65264024b/"
     },
     {
-        "name":"Cheng Wan",
+        "name":"Cheng Wan*",
         "ref":"https://jornywan.github.io/"
     },
     {
@@ -213,5 +239,33 @@
  ],
  "description":"Theoretical analysis about linear mode connectivity in deep learning theory.  In this work, I propose the project, prove theorems and write code.",
  "cofirst":true
+},
+{ 
+"name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
+"ref":"", 
+"conference":"preprint", 
+"author":[
+    {
+        "name":"Zexi Li",
+        "ref":"https://zexilee.github.io/about-zexili/"
+    },
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"Tao Shen",
+        "ref":"https://scholar.google.com/citations?user=MeaDj20AAAAJ&hl=zh-CN&authuser=1/"
+    },
+    {
+        "name":"Tao Lin",
+        "ref":"https://tlin-taolin.github.io/"
+    },
+    {
+        "ref":"https://wuchaozju.github.io/",
+        "name":"Chao Wu"
+    }
+ ],
+ "description":"Theoretical analysis about linear mode connectivity in deep learning theory.  In this work, I propose the project, prove theorems and write code.",
+ "cofirst":false
 }
 ]
