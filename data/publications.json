@@ -2,7 +2,7 @@
 { 
     "name":"Particle-Laden Fluid on Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH Asian,2024", 
+    "conference":"SIGGRAPH Asia,2024 (Journal Track)", 
     "author":[
         {
             "name":"Zhiqi Li"
@@ -26,7 +26,7 @@
 { 
     "name":"Solid-Fluid Interaction on Particle Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH Asian,2024", 
+    "conference":"SIGGRAPH Asia,2024 (Journal Track)", 
     "author":[
         {
             "name":"Duowen Chen"
@@ -53,7 +53,7 @@
 { 
 "name":"Lagrangian Covector Fluid with Free Surface", 
 "ref":"https://zhiqili-cg.github.io/CovectorFluidFreeSurface/", 
-"conference":"SIGGRAPH,2024", 
+"conference":"SIGGRAPH,2024 (Conference Track)", 
 "author":[
     {
         "name":"Zhiqi Li"
