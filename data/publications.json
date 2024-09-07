@@ -1,53 +1,50 @@
 [
 { 
-    "name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
+    "name":"Particle-Laden Fluid on Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH Asian,2024(accept)", 
+    "conference":"SIGGRAPH Asian,2024", 
     "author":[
         {
             "name":"Zhiqi Li"
         },
         {
-            "name":"anonymous author"
+            "name":"Duowen Chen"
         },
         {
-            "name":"anonymous author"
+            "name":"Candong Lin"
         },
         {
-            "name":"anonymous author"
+            "name":"Jinyuan Liu"
         },
         {
-            "name":"anonymous author"
-        },
-        {
-            "name":"anonymous author"
+            "name":"Bo Zhu"
         }
         ],
         "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
         "cofirst":false
 },
 { 
-    "name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
+    "name":"Solid-Fluid Interaction on Particle Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH Asian,2024(accept)", 
+    "conference":"SIGGRAPH Asian,2024", 
     "author":[
         {
-            "name":"anonymous author"
+            "name":"Duowen Chen"
         },
         {
             "name":"Zhiqi Li"
         },
         {
-            "name":"anonymous author"
+            "name":"Junwei Zhou"
         },
         {
-            "name":"anonymous author"
+            "name":"Fan Feng"
         },
         {
-            "name":"anonymous author"
+            "name":"Tao Du"
         },
         {
-            "name":"anonymous author"
+            "name":"Bo Zhu"
         }
         ],
         "description":"Fluid simulation.  In this work, I assisted with the theoretical and methodological parts",
@@ -83,9 +80,9 @@
  "cofirst":false
 },
 { 
-"name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
+"name":"Improving Group Connectivity for Generalization of Federated Deep Learning", 
 "ref":"", 
-"conference":"NIPS under review,2024", 
+"conference":"NIPS Workshop on Federated Learning,2024", 
 "author":[
     {
         "name":"Zexi Li*",
