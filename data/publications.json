@@ -1,5 +1,80 @@
 [
 { 
+    "name":"Due to the double-blind policy, it is not displayed here.", 
+    "ref":"", 
+    "conference":"SIGGRAPH,2025 (Journal Track)", 
+    "author":[
+       {
+            "name":"Unknown author*"
+        },
+        {
+            "name":"Zhiqi Li*"
+        },
+        {
+            "name":"Unknown author"
+        },
+        {
+            "name":"Unknown author"
+        },
+        {
+            "name":"Unknown author"
+        }
+        ],
+        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
+        "cofirst":false
+},
+    { 
+    "name":"Due to the double-blind policy, it is not displayed here.", 
+    "ref":"", 
+    "conference":"SIGGRAPH,2025 (Dual Track)", 
+    "author":[
+        {
+            "name":"Zhiqi Li*"
+        },
+        {
+            "name":"Unknown author*"
+        },
+        {
+            "name":"Unknown author"
+        },
+        {
+            "name":"Unknown author"
+        },
+        {
+            "name":"Unknown author"
+        }
+        ],
+        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
+        "cofirst":false
+},
+{ 
+    "name":"Due to the double-blind policy, it is not displayed here.", 
+    "ref":"", 
+    "conference":"SIGGRAPH,2025 (Dual Track)", 
+    "author":[
+        {
+            "name":"Zhiqi Li"
+        },
+        {
+            "name":"Unknown author"
+        },
+        {
+            "name":"Unknown author"
+        },
+        {
+            "name":"Unknown author"
+        },
+        {
+            "name":"Unknown author"
+        },
+            {
+            "name":"Unknown author"
+        }
+        ],
+        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
+        "cofirst":false
+},
+{ 
     "name":"Particle-Laden Fluid on Flow Maps", 
     "ref":"", 
     "conference":"SIGGRAPH Asia,2024 (Journal Track)", 
