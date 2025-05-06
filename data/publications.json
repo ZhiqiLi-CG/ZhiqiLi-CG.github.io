@@ -1,80 +1,151 @@
 [
 { 
-    "name":"Due to the double-blind policy, it is not displayed here.", 
+    "name":"Fluid Simulation on Compressible Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH,2025 (Conditionally Accept, Journal)", 
+    "conference":"SIGGRAPH,2025 (Journal)", 
     "author":[
        {
-            "name":"Unknown author*"
+            "name":"Duowen Chen*"
         },
         {
             "name":"Zhiqi Li*"
         },
         {
-            "name":"Unknown author"
+            "name":"Taiyuan Zhang"
         },
         {
-            "name":"Unknown author"
+            "name":"Jinjin He"
         },
         {
-            "name":"Unknown author"
+            "name":"Junwei Zhou"
+        },
+        {
+            "name":"Bart G. Van Bloemen Waanders"
+        },
+        {
+            "name":"Bo Zhu"
         }
         ],
         "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
         "cofirst":true
 },
     { 
-    "name":"Due to the double-blind policy, it is not displayed here.", 
+    "name":"EDGE: Epsilon-Difference Gradient Evolution for Buffer-Free Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH,2025  (Conditionally Accept, Journal)", 
+    "conference":"SIGGRAPH,2025  (Journal)", 
+    "author":[
+        {
+            "name":"Zhiqi Li*"
+        },
+        {
+            "name":"Ruicheng Wang*"
+        },
+        {
+            "name":"Junlin Li*"
+        },
+        {
+            "name":"Duowen Chen"
+        },
+        {
+            "name":"Sinan Wang"
+        },
+            {
+            "name":"Bo Zhu"
+        }
+        ],
+        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
+        "cofirst":true
+},
+    { 
+    "name":"Clebsch Gauge Fluid on Particle Flow Maps", 
+    "ref":"", 
+    "conference":"SIGGRAPH,2025  (Journal)", 
     "author":[
         {
             "name":"Zhiqi Li"
         },
         {
-            "name":"Unknown author"
+            "name":"Candong Lin"
         },
         {
-            "name":"Unknown author"
+            "name":"Duowen Chen"
         },
         {
-            "name":"Unknown author"
+            "name":"Xinyi Zhou"
         },
         {
-            "name":"Unknown author"
-        },
-            {
-            "name":"Unknown author"
-        }
-        ],
-        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
-        "cofirst":true
-},
-    { 
-    "name":"Due to the double-blind policy, it is not displayed here.", 
-    "ref":"", 
-    "conference":"SIGGRAPH,2025  (Conditionally Accept, Journal)", 
-    "author":[
-        {
-            "name":"Zhiqi Li*"
+            "name":"Shiying Xiong"
         },
         {
-            "name":"Unknown author*"
-        },
-        {
-            "name":"Unknown author"
-        },
-        {
-            "name":"Unknown author"
-        },
-        {
-            "name":"Unknown author"
+            "name":"Bo Zhu"
         }
         ],
         "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
         "cofirst":false
 },
-
+    { 
+    "name":"A Fast Eulerian Impulse Method on Flow Maps", 
+    "ref":"", 
+    "conference":"SIGGRAPH,2025  (Journal)", 
+    "author":[
+        {
+            "name":"Yuchen Sun"
+        },
+        {
+            "name":"Junlin Li"
+        },
+        {
+            "name":"Ruicheng Wang"
+        },
+        {
+            "name":"Sinan Wang"
+        },
+        {
+            "name":"Zhiqi Li"
+        },
+        {
+            "name":"Bart G. van Bloemen Waanders"
+        },
+        {
+            "name":"Bo Zhu"
+        }
+        ],
+        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
+        "cofirst":false
+},
+    { 
+    "name":"Fluid Simulation on Vortex Particle Flow Maps", 
+    "ref":"", 
+    "conference":"SIGGRAPH,2025  (Journal)", 
+    "author":[
+        {
+            "name":"Sinan Wang"
+        },
+        {
+            "name":"Junwei Zhou"
+        },
+        {
+            "name":"Fan Feng"
+        },
+        {
+            "name":"Zhiqi Li"
+        },
+        {
+            "name":"Yuchen Sun"
+        },
+        {
+            "name":"Duowen Chen"
+        },
+        {
+            "name":"Greg Turk"
+        },
+        {
+            "name":"Bo Zhu"
+        }
+        ],
+        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
+        "cofirst":false
+},
 { 
     "name":"Particle-Laden Fluid on Flow Maps", 
     "ref":"", 
