@@ -1,5 +1,31 @@
 [
 { 
+"name":"Improving Group Connectivity for Generalization of Federated Deep Learning", 
+"ref":"", 
+"conference":"SIGKDD 2025", 
+"author":[
+    {
+        "name":"Zexi Li*",
+        "ref":"https://zexilee.github.io/about-zexili/"
+    },
+    {
+        "name":"Jie Lin*"
+    },
+    {
+        "name":"Zhiqi Li*"
+    },
+    {
+        "name":"Didi Zhu"
+    },
+    {
+        "ref":"https://wuchaozju.github.io/",
+        "name":"Chao Wu"
+    }
+ ],
+ "description":"Theoretical analysis about linear mode connectivity in deep learning theory.",
+ "cofirst":true
+},
+{ 
     "name":"Fluid Simulation on Compressible Flow Maps", 
     "ref":"", 
     "conference":"SIGGRAPH,2025 (ACM Transactions on Graphics)", 
@@ -110,7 +136,7 @@
             "name":"Bo Zhu"
         }
         ],
-        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
+        "description":"Fluid simulation. Help with theoretical analysis.",
         "cofirst":false
 },
     { 
@@ -143,7 +169,7 @@
             "name":"Bo Zhu"
         }
         ],
-        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
+        "description":"Fluid simulation.  Help with theoretical analysis.",
         "cofirst":false
 },
 { 
@@ -225,32 +251,6 @@
  ],
  "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
  "cofirst":false
-},
-{ 
-"name":"Improving Group Connectivity for Generalization of Federated Deep Learning", 
-"ref":"", 
-"conference":"NIPS Workshop on Federated Learning,2024", 
-"author":[
-    {
-        "name":"Zexi Li*",
-        "ref":"https://zexilee.github.io/about-zexili/"
-    },
-    {
-        "name":"Jie Lin*"
-    },
-    {
-        "name":"Zhiqi Li*"
-    },
-    {
-        "name":"Didi Zhu"
-    },
-    {
-        "ref":"https://wuchaozju.github.io/",
-        "name":"Chao Wu"
-    }
- ],
- "description":"Theoretical analysis about linear mode connectivity in deep learning theory.  In this work, I propose the project, prove theorems and write code.",
- "cofirst":true
 },
 { 
 "name":"Swift Parameter-free Attention Network for Efficient Super-Resolution.", 
