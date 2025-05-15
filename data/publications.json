@@ -2,7 +2,7 @@
 { 
     "name":"Fluid Simulation on Compressible Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH,2025 (Journal)", 
+    "conference":"SIGGRAPH,2025 (ACM Transactions on Graphics)", 
     "author":[
        {
             "name":"Duowen Chen*"
@@ -32,7 +32,7 @@
     { 
     "name":"EDGE: Epsilon-Difference Gradient Evolution for Buffer-Free Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH,2025  (Journal)", 
+    "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics)", 
     "author":[
         {
             "name":"Zhiqi Li*"
@@ -59,7 +59,7 @@
     { 
     "name":"Clebsch Gauge Fluid on Particle Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH,2025  (Journal)", 
+    "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics)", 
     "author":[
         {
             "name":"Zhiqi Li"
@@ -86,7 +86,7 @@
     { 
     "name":"A Fast Eulerian Impulse Method on Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH,2025  (Journal)", 
+    "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics)", 
     "author":[
         {
             "name":"Yuchen Sun"
@@ -116,7 +116,7 @@
     { 
     "name":"Fluid Simulation on Vortex Particle Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH,2025  (Journal)", 
+    "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics)", 
     "author":[
         {
             "name":"Sinan Wang"
@@ -149,7 +149,7 @@
 { 
     "name":"Particle-Laden Fluid on Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH Asia,2024 (Journal Track)(Best Paper Award!)", 
+    "conference":"SIGGRAPH Asia,2024 (ACM Transactions on Graphics) (Best Paper Award!)", 
     "author":[
         {
             "name":"Zhiqi Li"
@@ -173,7 +173,7 @@
 { 
     "name":"Solid-Fluid Interaction on Particle Flow Maps", 
     "ref":"", 
-    "conference":"SIGGRAPH Asia,2024 (Journal Track)", 
+    "conference":"SIGGRAPH Asia,2024 (ACM Transactions on Graphics)", 
     "author":[
         {
             "name":"Duowen Chen"
@@ -200,7 +200,7 @@
 { 
 "name":"Lagrangian Covector Fluid with Free Surface", 
 "ref":"https://zhiqili-cg.github.io/CovectorFluidFreeSurface/", 
-"conference":"SIGGRAPH,2024 (Conference Track)", 
+"conference":"SIGGRAPH,2024 (Dual Track)", 
 "author":[
     {
         "name":"Zhiqi Li"
