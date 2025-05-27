@@ -21,7 +21,7 @@
     }
  ],
  "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
- "cofirst":True
+ "cofirst":true
 },    
 { 
 "name":"Improving Group Connectivity for Generalization of Federated Deep Learning", 
