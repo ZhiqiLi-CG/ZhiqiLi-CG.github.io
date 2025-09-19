@@ -8,16 +8,29 @@
         "name":"Zhiqi Li*"
     },
     {
-        "name":"Unknown*"
+        "name":"Jinjin He*"
     },
     {
-        "name":"Unknown"
+        "name":"Barnabás Börcsök"
     },
     {
-        "name":"Unknown"
+        "name":"Taiyuan Zhang"
     },
     {
-        "name":"Unknown"
+        "name":"Duowen Chen"
+    },
+    {
+        "name":"Tao Du"
+    }
+    ,
+    {
+        "name":"Ming Lin"
+    }，
+    {
+        "name":"Greg Turk"
+    }，
+    {
+        "name":"Bo Zhu"
     }
  ],
  "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
