@@ -1,4 +1,25 @@
 [
+    { 
+"name":"Improving Model Fusion by Training-time Neuron Alignment with Fixed Neuron Anchors", 
+"ref":"", 
+"conference":"Transactions on Pattern Analysis and Machine Intelligence(TPAMI)", 
+"author":[
+    {
+        "name":"Zexi Li"
+    },
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"..."
+    },
+    {
+        "name":"Chao Wu"
+    }
+ ],
+ "description":"Deep Learning and Federated Learning.  Doing the theoretical analysis.",
+ "cofirst":false
+},  
 { 
 "name":"An Adjoint Method for Differentiable Fluid Simulation on Flow Maps", 
 "ref":"", 
