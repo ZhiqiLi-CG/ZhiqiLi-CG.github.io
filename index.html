@@ -61,61 +61,82 @@
                 </p>
               </td>
             </tr>
-          </tbody></table>          
-          <table id="publication_table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          </tbody></table>  
+
+
+          <table 
+              style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;">
+          <tbody>
+          
+            <!-- 📌 Publications 标题 + 过滤器（不会被 JS 清空） -->
             <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Publications</h2>
+
+                <!-- ✔ 你要求的 checkbox 全部放在这里 -->
+            <!-- ================= AUTHorship ================= -->
+            <div>
+              <h3>
+                Authorship
+                <button class="reset-btn" data-target="filter-authorship"
+                        style="margin-left:10px; font-size:12px; padding:2px 6px; cursor:pointer;">
+                  Reset
+                </button>
+              </h3>
+              <label><input type="checkbox" class="filter-authorship" value="first_author"> (Co-)First Author</label>
+              <label><input type="checkbox" class="filter-authorship" value="others"> Others</label>
+            </div>
+
+            <!-- ================= Research Area ================= -->
+            <div>
+              <h3>
+                Research Area
+                <button class="reset-btn" data-target="filter-area"
+                        style="margin-left:10px; font-size:12px; padding:2px 6px; cursor:pointer;">
+                  Reset
+                </button>
+              </h3>
+              <label><input type="checkbox" class="filter-area" value="computer_graphics">Computer Graphics</label>
+              <label><input type="checkbox" class="filter-area" value="deep_learning">Deep/Machine Learning</label>
+              <label><input type="checkbox" class="filter-area" value="Diffusion_Flow_Matching">Diffusion/Flow Matching</label>
+              <label><input type="checkbox" class="filter-area" value="LLM">LLM</label>
+              <label><input type="checkbox" class="filter-area" value="computational_physics">Computational Physics</label>
+            </div>
+
+            <!-- ================= Venue ================= -->
+            <div>
+              <h3>
+                Venue
+                <button class="reset-btn" data-target="filter-venue"
+                        style="margin-left:10px; font-size:12px; padding:2px 6px; cursor:pointer;">
+                  Reset
+                </button>
+              </h3>
+              <label><input type="checkbox" class="filter-venue" value="SIGGRAPH_TOG">SIGGRAPH / TOG</label>
+              <label><input type="checkbox" class="filter-venue" value="CVPR">CVPR</label>
+              <label><input type="checkbox" class="filter-venue" value="ICML">ICML</label>
+              <label><input type="checkbox" class="filter-venue" value="SIGKDD">SIGKDD</label>
+              <label><input type="checkbox" class="filter-venue" value="TPAMI">TPAMI</label>
+              <label><input type="checkbox" class="filter-venue" value="VR">IEEE VR</label>
+              <label><input type="checkbox" class="filter-venue" value="thesis">Thesis</label>
+              <label><input type="checkbox" class="filter-venue" value="arxiv">arXiv</label>
+            </div>
+
               </td>
             </tr>
-            <!--
 
-
+            <!-- 📌 论文内容将插入这里，不会影响标题和 checkbox -->
             <tr>
-              <td>
-                <div class="svg-bar-chart">
-                  <svg style="height: 100%; width: 100%">
-                      <text id="svg-title" x="0" y="15">My Publications in Different Fields</text>
-                      <line x1="140" y1="50" x2="140" y2="160" stroke="black" stroke-width="1"></line>
-                      <line x1="220" y1="50" x2="220" y2="160" stroke="lightgray" stroke-width="0.5"></line>
-                      <line x1="300" y1="50" x2="300" y2="160" stroke="lightgray" stroke-width="1"></line>
-                      <line x1="380" y1="50" x2="380" y2="160" stroke="lightgray" stroke-width="0.5"></line>
-                      <line x1="460" y1="50" x2="460" y2="160" stroke="lightgray" stroke-width="1"></line>
-                      <line x1="540" y1="50" x2="540" y2="160" stroke="lightgray" stroke-width="0.5"></line>
-                      <line x1="620" y1="50" x2="620" y2="160" stroke="lightgray" stroke-width="1"></line>
-                      <line x1="700" y1="50" x2="700" y2="160" stroke="lightgray" stroke-width="0.5"></line>
-            
-                      <g class="svg-bars">
-                          <g transform="translate(50, 50)">
-                              <text x="70" y="15">Machine Learning</text>
-                              <rect x="90" y="0" width="400" height="20" fill="chocolate"></rect>
-                          </g>
-                          <g transform="translate(50, 80)">
-                              <text x="70" y="15">Computer Graphics</text>
-                              <rect x="90" y="0" width="160" height="20" fill="silver"></rect>
-                          </g>
-                          <g transform="translate(50, 110)">
-                              <text x="70" y="15">Virtual Reality</text>
-                              <rect x="90" y="0" width="80" height="20" fill="gold"></rect>
-                          </g>
-                          <g transform="translate(50, 140)">
-                              <text x="70" y="15">Total</text>
-                              <rect x="90" y="0" width="560" height="20" fill="whitesmoke"></rect>
-                          </g>
-                      </g>
-                      <g transform="translate(140, 180)" style="text-anchor: middle;">
-                          <text x="0">0</text>
-                          <text x="160">2</text>
-                          <text x="320">4</text>
-                          <text x="480">6</text>
-                      </g>
-                  </svg>
-              </div>
-              </td>
+              <td id="publication_table"  style="padding:0px;"></td>
             </tr>
-          -->
-            <script src="publication_list.js"></script>  
-            </tbody></table>
+
+          </tbody>
+        </table>
+
+<!-- 📌 正确 script 位置：放在 table 后 -->
+<script src="publication_list.js"></script>
+
+            
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">

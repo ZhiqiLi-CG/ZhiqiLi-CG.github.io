@@ -1,7 +1,7 @@
 [
     { 
 "name":"Improving Model Fusion by Training-time Neuron Alignment with Fixed Neuron Anchors", 
-"ref":"", 
+"ref":"https://ieeexplore.ieee.org/document/11214255", 
 "conference":"Transactions on Pattern Analysis and Machine Intelligence(TPAMI)", 
 "author":[
     {
@@ -17,12 +17,18 @@
         "name":"Chao Wu"
     }
  ],
- "description":"Deep Learning and Federated Learning.  Doing the theoretical analysis.",
- "cofirst":false
+ "description":"Introducing training-time neuron alignment as a scalable paradigm for robust model fusion and federated learning.",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["others"],     
+    "area": ["deep_learning"], 
+    "venue": ["TPAMI"]
+  },
+  "img":"publication_images/improving_li_2025.jpg"
 },  
 { 
 "name":"An Adjoint Method for Differentiable Fluid Simulation on Flow Maps", 
-"ref":"", 
+"ref":"https://pearseven.github.io/DiffFMProject", 
 "conference":"SIGGRAPH Asia 2025 (Accept as Conference Paper)", 
 "author":[
     {
@@ -54,12 +60,18 @@
         "name":"Bo Zhu"
     }
  ],
- "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
- "cofirst":true
+ "description":"A bidirectional flow-map–based adjoint solver that enables long-range, accurate, and memory-efficient differentiation of incompressible fluid simulations.",
+ "cofirst":true,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["computer_graphics","deep_learning"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":"publication_images/adjoint_li_2025.jpg"
 },    
 { 
-"name":"Improving Group Connectivity for Generalization of Federated Deep Learning", 
-"ref":"", 
+"name":"FedGuCci: Making Local Models More Connected in Landscape for Federated Learning", 
+"ref":"https://dl.acm.org/doi/10.1145/3711896.3737037", 
 "conference":"SIGKDD 2025", 
 "author":[
     {
@@ -80,12 +92,18 @@
         "name":"Chao Wu"
     }
  ],
- "description":"Theoretical analysis about linear mode connectivity in deep learning theory.",
- "cofirst":true
+ "description":"Improving federated learning generalization by enhancing group connectivity with fixed anchors, enabling more robust model fusion across heterogeneous clients.",
+ "cofirst":true,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["deep_learning"], 
+    "venue": ["SIGKDD"]
+  },
+  "img":"publication_images/improving_li_2025_b.jpg"
 },
 { 
     "name":"Fluid Simulation on Compressible Flow Maps", 
-    "ref":"", 
+    "ref":"https://cdwj.github.io/projects/compressible-flowmap-project-page/index.html", 
     "conference":"SIGGRAPH,2025 (ACM Transactions on Graphics)", 
     "author":[
        {
@@ -110,12 +128,18 @@
             "name":"Bo Zhu"
         }
         ],
-        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
-        "cofirst":true
+        "description":"A unified compressible flow-map framework that simulates high-Mach, weakly compressible, and incompressible-through-acoustics systems within a single Lagrangian path–integral formulation.",
+        "cofirst":true,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["computer_graphics"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":"publication_images/pfm_compressible.png"
 },
     { 
     "name":"EDGE: Epsilon-Difference Gradient Evolution for Buffer-Free Flow Maps", 
-    "ref":"", 
+    "ref":"https://pearseven.github.io/EDGEProject/", 
     "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics)", 
     "author":[
         {
@@ -137,12 +161,18 @@
             "name":"Bo Zhu"
         }
         ],
-        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
-        "cofirst":true
+        "description":"A memory-efficient flow-map solver that combines Gradient Evolution and an Epsilon Difference scheme to compute high-order derivatives with O(1) memory while preserving vortical accuracy.",
+        "cofirst":true,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["computer_graphics"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":"publication_images/pfm_edge.png"
 },
     { 
     "name":"Clebsch Gauge Fluid on Particle Flow Maps", 
-    "ref":"", 
+    "ref":"https://pearseven.github.io/PFMClebschProject/", 
     "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics), Honorable Mention for Best Paper Award!", 
     "author":[
         {
@@ -164,12 +194,18 @@
             "name":"Bo Zhu"
         }
         ],
-        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
-        "cofirst":false
+        "description":"A Clebsch-based gauge fluid solver on particle flow maps that enables accurate wave-function transport and superior preservation of fine-scale vortical structures.",
+        "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["computer_graphics"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":"publication_images/pfm_clebsch.png"
 },
     { 
-    "name":"A Fast Eulerian Impulse Method on Flow Maps", 
-    "ref":"", 
+    "name":"Leapfrog Flow Maps for Real-Time Fluid Simulation", 
+    "ref":"https://yuchen-sun-cg.github.io/projects/lfm/", 
     "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics)", 
     "author":[
         {
@@ -194,12 +230,18 @@
             "name":"Bo Zhu"
         }
         ],
-        "description":"Fluid simulation. Help with theoretical analysis.",
-        "cofirst":false
+        "description":"A real-time incompressible fluid solver that uses leapfrog-enhanced flow maps and a GPU-optimized AMGPCG projection to preserve rich vortical detail at high efficiency.",
+        "cofirst":false,
+ "tags": {
+    "authorship": ["others"],     
+    "area": ["computer_graphics"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":"publication_images/pfm_leapfrog.png"
 },
     { 
     "name":"Fluid Simulation on Vortex Particle Flow Maps", 
-    "ref":"", 
+    "ref":"https://vpfm.sinanw.com/", 
     "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics)", 
     "author":[
         {
@@ -227,12 +269,18 @@
             "name":"Bo Zhu"
         }
         ],
-        "description":"Fluid simulation.  Help with theoretical analysis.",
-        "cofirst":false
+        "description":"A vorticity-based particle flow-map method that achieves much longer flow-map distances and superior vortex preservation for incompressible fluids with dynamic solid boundaries.",
+        "cofirst":false,
+ "tags": {
+    "authorship": ["others"],     
+    "area": ["computer_graphics"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":"publication_images/vpfm.png"
 },
 { 
     "name":"Particle-Laden Fluid on Flow Maps", 
-    "ref":"", 
+    "ref":"https://pearseven.github.io/LadenFlowProject/", 
     "conference":"SIGGRAPH Asia,2024 (ACM Transactions on Graphics) (Best Paper Award!)", 
     "author":[
         {
@@ -251,12 +299,18 @@
             "name":"Bo Zhu"
         }
         ],
-        "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
-        "cofirst":false
+        "description":"A particle-flow-map framework for Navier–Stokes ink simulation that couples physical and virtual particles to capture viscous, particle-laden flows with high-fidelity ink diffusion and breakup phenomena.",
+        "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["computer_graphics"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":"publication_images/pfm_laden.jpg"
 },
 { 
     "name":"Solid-Fluid Interaction on Particle Flow Maps", 
-    "ref":"", 
+    "ref":"https://cdwj.github.io/projects/pfm-sfi-project-page/index.html", 
     "conference":"SIGGRAPH Asia,2024 (ACM Transactions on Graphics)", 
     "author":[
         {
@@ -278,8 +332,14 @@
             "name":"Bo Zhu"
         }
         ],
-        "description":"Fluid simulation.  In this work, I assisted with the theoretical and methodological parts",
-        "cofirst":false
+        "description":"A unified particle–flow-map framework for solid–fluid coupling that transfers impulse and accumulates forces along flow-map paths, enabling vortical solid–fluid interactions with high fidelity.",
+        "cofirst":false,
+ "tags": {
+    "authorship": ["others"],     
+    "area": ["computer_graphics"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":"publication_images/pfm_sfi2.png"
 },
 { 
 "name":"Lagrangian Covector Fluid with Free Surface", 
@@ -307,12 +367,18 @@
         "name":"Greg Turk"
     }
  ],
- "description":"Fluid simulation.  In this work, I propose the project and methods, and write code.",
- "cofirst":false
+ "description":"A covector flow-map fluid solver that reformulates projection via path integrals, enabling robust and accurate incompressible simulations with complex free-surface and solid boundaries.",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["computer_graphics"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":"publication_images/lag_covector.jpg"
 },
 { 
 "name":"Swift Parameter-free Attention Network for Efficient Super-Resolution.", 
-"ref":"", 
+"ref":"https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Wan_Swift_Parameter-free_Attention_Network_for_Efficient_Super-Resolution_CVPRW_2024_paper.pdf", 
 "conference":"CVPR workshop(NTIRE),2024", 
 "author":[
     {
@@ -342,12 +408,18 @@
         "name":"Kunlong Zuo"
     }
  ],
- "description":"A swift parameter-free attention-based super-resolution achitecture.  In this work, I utilize knowledge of deep learning theory to validate and enhance network architectures.",
- "cofirst":true
+ "description":"A parameter-free attention super-resolution network that delivers state-of-the-art quality–speed trade-offs and wins both tracks of the NTIRE 2024 efficient SR challenge.",
+ "cofirst":true,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["deep_learning"], 
+    "venue": ["CVPR"]
+  },
+  "img":"publication_images/wan_swift_2023.jpg"
 },
 { 
 "name":"RemoteTouch: Enhancing Immersive 3D Video Communication with Hand Touch.", 
-"ref":"https://arxiv.org/abs/2302.14365", 
+"ref":"https://www.computer.org/csdl/proceedings-article/vr/2023/481500a001/1MNgTT89hni", 
 "conference":"IEEE VR,2023", 
 "author":[
     {
@@ -378,8 +450,14 @@
         "ref":"https://www.microsoft.com/en-us/research/people/bainguo/"
     }
  ],
- "description":" A immersive virtual-meeting system, with assistance of dual hand infomation, which is implemented by computer graphics techniques.",
- "cofirst":true
+ "description":"A dual hand-representation system enabling realistic remote hand-touch interaction (“virtual hand clapping”) for immersive 3D video communication.",
+ "cofirst":true,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["computer_graphics"], 
+    "venue": ["VR"]
+  },
+  "img":"publication_images/remote_zhang_2023.jpg"
 },
 { 
 "name":"Federated Learning with Label Distribution Skew via Logits Calibration.", 
@@ -411,8 +489,14 @@
         "ref":"https://wuchaozju.github.io/"
     }
  ],
- "description":"A federated method to tackle Non IID problem. In this work, I utilize knowledge of deep learning theory to validate the methods.",
- "cofirst":false
+ "description":"A logits-calibrated federated learning method that corrects label-distribution skew and significantly improves global accuracy under heterogeneous clients.",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["others"],     
+    "area": ["deep_learning"], 
+    "venue": ["ICML"]
+  },
+  "img":"publication_images/federated_zhang_2023.jpg"
 },
 { 
 "name":"Unveiling Linear Mode Connectivity of Re-basin from Neuron Distribution Perspective.", 
@@ -439,35 +523,13 @@
         "name":"Chao Wu"
     }
  ],
- "description":"Theoretical analysis about linear mode connectivity in deep learning theory.  In this work, I propose the project, prove theorems and write code.",
- "cofirst":true
-},
-{ 
-"name":"Due to the double-blind rules of the conference, this information is not disclosed.", 
-"ref":"", 
-"conference":"preprint", 
-"author":[
-    {
-        "name":"Zexi Li",
-        "ref":"https://zexilee.github.io/about-zexili/"
-    },
-    {
-        "name":"Zhiqi Li"
-    },
-    {
-        "name":"Tao Shen",
-        "ref":"https://scholar.google.com/citations?user=MeaDj20AAAAJ&hl=zh-CN&authuser=1/"
-    },
-    {
-        "name":"Tao Lin",
-        "ref":"https://tlin-taolin.github.io/"
-    },
-    {
-        "ref":"https://wuchaozju.github.io/",
-        "name":"Chao Wu"
-    }
- ],
- "description":"Theoretical analysis about linear mode connectivity in deep learning theory.  In this work, I propose the project, prove theorems and write code.",
- "cofirst":false
+ "description":"A neuron-distribution theory of re-basining that explains when and why permutation alignment improves linear mode connectivity—and guides better neuron alignment across methods like OTFusion and FedMA.",
+ "cofirst":true,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["deep_learning"], 
+    "venue": ["arxiv"]
+  },
+  "img":"publication_images/federated_li_2023.jpg"
 }
 ]
