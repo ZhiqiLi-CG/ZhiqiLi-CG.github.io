@@ -1,4 +1,32 @@
 [
+        { 
+"name":"Double Blind", 
+"ref":"", 
+"conference":"arxiv", 
+"author":[
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"Yuchen Sun"
+    },
+    {
+        "name":"Greg Turk"
+    },
+    {
+        "name":"Bo Zhu"
+    }
+ ],
+ "description":"One-step flow matching for image/3D shape generation",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["Diffusion_Flow_Matching"], 
+    "venue": ["arxiv"]
+  },
+  "img":"publication_images/mean_li_2025.jpg"
+},  
+
     { 
 "name":"Improving Model Fusion by Training-time Neuron Alignment with Fixed Neuron Anchors", 
 "ref":"https://ieeexplore.ieee.org/document/11214255", 
@@ -25,6 +53,24 @@
     "venue": ["TPAMI"]
   },
   "img":"publication_images/improving_li_2025.jpg"
+},  
+    { 
+"name":" Fluid simulation on flow maps", 
+"ref":"https://repository.gatech.edu/entities/publication/7fabb637-8d4b-481e-aa33-f41755e9b50c", 
+"conference":"Gatech Master Thesis", 
+"author":[
+    {
+        "name":"Zhiqi Li"
+    }
+ ],
+ "description":"This thesis advances vortex-preserving flow-map fluid simulation by improving its core methodology, extending it to solid coupling, particle-laden flows, compressible fluids, and free surfaces, and enhancing its computational efficiency to achieve state-of-the-art results across diverse phenomena.",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["computer_graphics"], 
+    "venue": ["thesis"]
+  },
+  "img":"publication_images/pfm_thesis.png"
 },  
 { 
 "name":"An Adjoint Method for Differentiable Fluid Simulation on Flow Maps", 
