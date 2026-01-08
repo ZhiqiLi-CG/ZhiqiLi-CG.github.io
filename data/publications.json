@@ -1,4 +1,37 @@
 [
+                { 
+"name":"An Impulse-formed Navier-Stokes Solver based on Long-range Particle Flow Maps", 
+"ref":"", 
+"conference":"Under review - Journal of Computational Physics", 
+"author":[
+    {
+        "name":"Zhiqi Li*"
+    },
+    {
+        "name":"Duowen Chen*"
+    },
+    {
+        "name":"Junwei Zhou*"
+    },
+    {
+        "name":"Sinan Wang"
+    },
+    {
+        "name":"Yuchen Sun"
+    },
+    {
+        "name":"Bo Zhu"
+    }
+ ],
+ "description":"Physical View for Flow Map Method",
+ "cofirst":true,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["computational_physics"], 
+    "venue": ["arxiv"]
+  },
+  "img":"publication_images/pfm_jcp.png"
+}, 
         { 
 "name":"Functional Mean Flow in Hilbert Space", 
 "ref":"https://arxiv.org/pdf/2511.12898", 
