@@ -1,4 +1,57 @@
 [
+  { 
+"name":"anonymous", 
+"ref":"anonymous", 
+"conference":"SIGGRAPH 2026 (Under Review)", 
+"author":[
+    {
+        "name":"Zhiqi Li*"
+    },
+    {
+        "name":"anonymous"
+    },
+ ],
+ "description":"3D Generation",
+ "cofirst":true,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["computer_graphics","deep_learning"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":""
+},   
+  
+          { 
+"name":"Trajectory Consistency for One-Step Generation on Euler Mean Flows", 
+"ref":"https://www.arxiv.org/abs/2602.02571", 
+"conference":"arxiv", 
+"author":[
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"Yuchen Sun"
+    },
+    {
+        "name":"Duowen Chen"
+    },
+      {
+        "name":"Jinjin He"
+    },
+    {
+        "name":"Bo Zhu"
+    }
+ ],
+ "description":"One-step flow matching for image/3D shape generation. Stable, Fast and Broader Application without JVPs",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["Diffusion_Flow_Matching"], 
+    "venue": ["arxiv"]
+  },
+  "img":"publication_images/meanflow.png"
+},  
+
                 { 
 "name":"An Impulse-formed Navier-Stokes Solver based on Long-range Particle Flow Maps", 
 "ref":"", 
