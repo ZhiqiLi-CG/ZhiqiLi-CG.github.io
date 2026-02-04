@@ -2,14 +2,14 @@
   { 
 "name":"anonymous", 
 "ref":"anonymous", 
-"conference":"SIGGRAPH 2026 (Under Review)", 
+"conference":"(Under Review)", 
 "author":[
     {
         "name":"Zhiqi Li*"
     },
     {
         "name":"anonymous"
-    },
+    }
  ],
  "description":"3D Generation",
  "cofirst":true,
