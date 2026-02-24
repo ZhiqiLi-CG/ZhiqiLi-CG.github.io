@@ -1,4 +1,25 @@
 [
+{ 
+"name":"A Long-Short Flow-Map Perspective for Drifting Models", 
+"ref":"", 
+"conference":"arxiv", 
+"author":[
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"Bo Zhu"
+    }
+ ],
+ "description":"Understanding Drifting Model from the perspective of flow maps",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["Diffusion_Flow_Matching"], 
+    "venue": ["arxiv"]
+  },
+  "img":"publication_images/long_short_flow_map.png"
+},  
   { 
 "name":"anonymous", 
 "ref":"anonymous", 
@@ -18,10 +39,10 @@
     "area": ["computer_graphics","deep_learning"], 
     "venue": ["SIGGRAPH_TOG"]
   },
-  "img":"publication_images/meanflow.png"
+  "img":"publication_images/anonymous.png"
 },   
   
-          { 
+{ 
 "name":"Trajectory Consistency for One-Step Generation on Euler Mean Flows", 
 "ref":"https://www.arxiv.org/abs/2602.02571", 
 "conference":"arxiv", 
@@ -49,10 +70,10 @@
     "area": ["Diffusion_Flow_Matching"], 
     "venue": ["arxiv"]
   },
-  "img":"publication_images/meanflow.png"
+  "img":"publication_images/trajectory_consistency.png"
 },  
 
-                { 
+{ 
 "name":"An Impulse-formed Navier-Stokes Solver based on Long-range Particle Flow Maps", 
 "ref":"", 
 "conference":"Under review - Journal of Computational Physics", 
@@ -88,7 +109,7 @@
         { 
 "name":"Functional Mean Flow in Hilbert Space", 
 "ref":"https://arxiv.org/pdf/2511.12898", 
-"conference":"arxiv", 
+"conference":"CVPR 2026", 
 "author":[
     {
         "name":"Zhiqi Li"
@@ -108,7 +129,7 @@
  "tags": {
     "authorship": ["first_author"],     
     "area": ["Diffusion_Flow_Matching"], 
-    "venue": ["arxiv"]
+    "venue": ["CVPR"]
   },
   "img":"publication_images/meanflow.png"
 },  
