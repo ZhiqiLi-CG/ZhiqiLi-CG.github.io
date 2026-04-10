@@ -78,9 +78,7 @@
   },
   "img":"publication_images/trajectory_consistency.png"
 },  
-
-
-        { 
+ { 
 "name":"Functional Mean Flow in Hilbert Space", 
 "ref":"https://arxiv.org/pdf/2511.12898", 
 "conference":"CVPR 2026", 
