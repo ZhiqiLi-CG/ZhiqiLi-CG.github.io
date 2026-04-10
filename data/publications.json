@@ -21,25 +21,31 @@
   "img":"publication_images/long_short_flow_map.png"
 },  
   { 
-"name":"anonymous", 
-"ref":"anonymous", 
-"conference":"(Under Review)", 
+"name":"A Few-Step Generative Model on Cumulative Flow Maps", 
+"ref":"A Few-Step Generative Model on Cumulative Flow Maps", 
+"conference":"SIGGRAPH 2026(Conditional Accept, Journal)", 
 "author":[
     {
         "name":"Zhiqi Li*"
     },
     {
-        "name":"anonymous"
+        "name":"Duowen Chen*"
+    },
+    {
+        "name":"Yuchen Sun*"
+    },
+    {
+        "name":"Bo ZHu"
     }
  ],
- "description":"3D Generation",
+ "description":"Fast Few Step Generation for Computer Graphics Task, including 3D Gemoetry, Point Cloud, Sketch Generation, Geometry Encoding",
  "cofirst":true,
  "tags": {
     "authorship": ["first_author"],     
     "area": ["computer_graphics","deep_learning"], 
     "venue": ["SIGGRAPH_TOG"]
   },
-  "img":"publication_images/anonymous.png"
+  "img":"publication_images/cumulative_flow_map.png"
 },   
   
 { 
