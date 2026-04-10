@@ -79,6 +79,34 @@
   "img":"publication_images/trajectory_consistency.png"
 },  
 
+
+        { 
+"name":"Functional Mean Flow in Hilbert Space", 
+"ref":"https://arxiv.org/pdf/2511.12898", 
+"conference":"CVPR 2026", 
+"author":[
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"Yuchen Sun"
+    },
+    {
+        "name":"Greg Turk"
+    },
+    {
+        "name":"Bo Zhu"
+    }
+ ],
+ "description":"One-step flow matching for image/3D shape generation",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["Diffusion_Flow_Matching"], 
+    "venue": ["CVPR"]
+  },
+  "img":"publication_images/meanflow.png"
+},  
 { 
 "name":"An Impulse-formed Navier-Stokes Solver based on Long-range Particle Flow Maps", 
 "ref":"", 
@@ -112,34 +140,6 @@
   },
   "img":"publication_images/pfm_jcp.png"
 }, 
-        { 
-"name":"Functional Mean Flow in Hilbert Space", 
-"ref":"https://arxiv.org/pdf/2511.12898", 
-"conference":"CVPR 2026", 
-"author":[
-    {
-        "name":"Zhiqi Li"
-    },
-    {
-        "name":"Yuchen Sun"
-    },
-    {
-        "name":"Greg Turk"
-    },
-    {
-        "name":"Bo Zhu"
-    }
- ],
- "description":"One-step flow matching for image/3D shape generation",
- "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["Diffusion_Flow_Matching"], 
-    "venue": ["CVPR"]
-  },
-  "img":"publication_images/meanflow.png"
-},  
-
     { 
 "name":"Improving Model Fusion by Training-time Neuron Alignment with Fixed Neuron Anchors", 
 "ref":"https://ieeexplore.ieee.org/document/11214255", 
