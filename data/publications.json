@@ -1,5 +1,47 @@
 [
 { 
+"name":"anonymous", 
+"ref":"", 
+"conference":"SIGGRAPH Asia(Under review)", 
+"author":[
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"anonymous"
+    }
+ ],
+ "description":"Fast Generation",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["Diffusion_Flow_Matching"], 
+    "venue": ["SIGGRAPH_TOG"]
+  },
+  "img":"publication_images/anonymous.png"
+}, 
+    { 
+"name":"anonymous", 
+"ref":"", 
+"conference":"NIPS(Under review)", 
+"author":[
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"anonymous"
+    }
+ ],
+ "description":"Fast Generation",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["Diffusion_Flow_Matching"], 
+    "venue": ["NIPS"]
+  },
+  "img":"publication_images/anonymous.png"
+}, 
+{ 
 "name":"A Long-Short Flow-Map Perspective for Drifting Models", 
 "ref":"", 
 "conference":"arxiv", 
