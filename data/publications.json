@@ -1,4 +1,28 @@
 [
+    { 
+"name":"Flow-Map GRPO: Reinforcement Learning for Few-Step Flow-Map Generators via Anchored Stochastic Composition", 
+"ref":"", 
+"conference":"arxiv", 
+"author":[
+    {
+        "name":"Zhiqi Li"
+    },
+    {
+        "name":"Wen Zhang"
+    },
+    {
+        "name":"Bo Zhu"
+    }
+ ],
+ "description":"Make flow maps stochastic for RL post training, like GRPO",
+ "cofirst":false,
+ "tags": {
+    "authorship": ["first_author"],     
+    "area": ["Diffusion_Flow_Matching"], 
+    "venue": ["arxiv"]
+  },
+  "img":"publication_images/long_short_flow_map.png"
+},  
 { 
 "name":"anonymous", 
 "ref":"", 
