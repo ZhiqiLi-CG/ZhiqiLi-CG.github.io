@@ -14,7 +14,7 @@
         "name":"Bo Zhu"
     }
  ],
- "description":"Make flow maps stochastic for RL post training, like GRPO",
+ "description":"Make flow maps (MeanFlow, Consistency Model, etc) stochastic for RL post training, like GRPO",
  "cofirst":false,
  "tags": {
     "authorship": ["first_author"],     
@@ -26,13 +26,31 @@
 { 
 "name":"anonymous", 
 "ref":"", 
-"conference":"SIGGRAPH Asia(Under review)", 
+"conference":"SIGGRAPH Asia (Conditional Accept)", 
 "author":[
     {
         "name":"Zhiqi Li"
     },
     {
-        "name":"anonymous"
+        "name":"Jinjin He"
+    },
+    {
+        "name":"Duowen Chen"
+    },
+    {
+        "name":"Ruicheng Wang"
+    },
+    {
+        "name":"Shenyifan Lu"
+    },
+    {
+        "name":"Yuchen Sun"
+    },
+    {
+        "name":"Sinan Wang"
+    },
+    {
+        "name":"Bo Zhu"
     }
  ],
  "description":"Fast Generation",
