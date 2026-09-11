@@ -2,7 +2,7 @@
      {
   "name": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
   "ref": "",
-  "conference": "preprint",
+  "conference": "arxiv",
   "author": [
     {
       "name": "Zhiqi Li"
@@ -19,7 +19,7 @@
   "tags": {
     "authorship": ["first_author"],
     "area": ["World_Model", "Agentic_AI"],
-    "venue": ["preprint"]
+    "venue": ["arxiv"]
   },
   "img": "publication_images/recursive_code_world_model.png"
 },  
