@@ -1,4 +1,28 @@
 [
+     {
+  "name": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
+  "ref": "",
+  "conference": "preprint",
+  "author": [
+    {
+      "name": "Zhiqi Li"
+    },
+    {
+      "name": "Yuxuan Liao"
+    },
+    {
+      "name": "Bo Zhu"
+    }
+  ],
+  "description": "Reconstruct complex 3D worlds as recursive scene programs, where each subproblem invokes the same generation–rendering–verification–refinement solver.",
+  "cofirst": false,
+  "tags": {
+    "authorship": ["first_author"],
+    "area": ["World_Model", "Agentic_AI"],
+    "venue": ["preprint"]
+  },
+  "img": "publication_images/recursive_code_world_model.png"
+},  
     { 
 "name":"Flow-Map GRPO: Reinforcement Learning for Few-Step Flow-Map Generators via Anchored Stochastic Composition", 
 "ref":"https://arxiv.org/abs/2607.00535", 
