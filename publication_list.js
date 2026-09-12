@@ -148,6 +148,24 @@ function renderPublications(json) {
 
         textDiv.appendChild(document.createElement("br"));
 
+        // ---------- Links: Paper / Code / Project ----------
+        var links = json[i]["links"] || {};
+        var order = [["paper", "Paper"], ["code", "Code"], ["project", "Project"], ["video", "Video"], ["slides", "Slides"]];
+        var linkDiv = document.createElement("div");
+        linkDiv.className = "publinks";
+        for (var k = 0; k < order.length; k++) {
+            var key = order[k][0];
+            if (links[key] && String(links[key]).trim() !== "") {
+                var la = document.createElement("a");
+                la.href = links[key];
+                la.target = "_blank";
+                la.rel = "noopener noreferrer";
+                la.textContent = order[k][1];
+                linkDiv.appendChild(la);
+            }
+        }
+        if (linkDiv.childNodes.length > 0) textDiv.appendChild(linkDiv);
+
         // ---------- Description ----------
         var desc_item = document.createElement("p");
         desc_item.innerHTML = json[i]["description"] || "";

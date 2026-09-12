@@ -1,800 +1,1012 @@
 [
-     {
-  "name": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
-  "ref": "",
-  "conference": "arxiv",
-  "author": [
-    {
-      "name": "Zhiqi Li"
-    },
-    {
-      "name": "Yuxuan Liao"
-    },
-    {
-      "name": "Bo Zhu"
-    }
-  ],
-  "description": "Reconstruct complex 3D worlds as recursive scene programs, where each subproblem invokes the same generation–rendering–verification–refinement solver.",
-  "cofirst": false,
-  "tags": {
-    "authorship": ["first_author"],
-    "area": ["World_Model", "Agentic_AI"],
-    "venue": ["arxiv"]
-  },
-  "img": "publication_images/recursive_code_world_model.png"
-},  
-    { 
-"name":"Flow-Map GRPO: Reinforcement Learning for Few-Step Flow-Map Generators via Anchored Stochastic Composition", 
-"ref":"https://arxiv.org/abs/2607.00535", 
-"conference":"arxiv", 
-"author":[
-    {
-        "name":"Zhiqi Li"
-    },
-    {
-        "name":"Wen Zhang"
-    },
-    {
-        "name":"Bo Zhu"
-    }
- ],
- "description":"Make flow maps (MeanFlow, Consistency Model, etc) stochastic for RL post training, like GRPO",
- "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["Diffusion_Flow_Matching"], 
-    "venue": ["arxiv"]
-  },
-  "img":"publication_images/flowmap_grpo.png"
-},  
-{ 
-"name":"anonymous", 
-"ref":"", 
-"conference":"SIGGRAPH Asia (Conditional Accept)", 
-"author":[
-    {
-        "name":"Zhiqi Li"
-    },
-    {
-        "name":"Jinjin He"
-    },
-    {
-        "name":"Duowen Chen"
-    },
-    {
-        "name":"Ruicheng Wang"
-    },
-    {
-        "name":"Shenyifan Lu"
-    },
-    {
-        "name":"Yuchen Sun"
-    },
-    {
-        "name":"Sinan Wang"
-    },
-    {
-        "name":"Bo Zhu"
-    }
- ],
- "description":"Fast Generation",
- "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["Diffusion_Flow_Matching"], 
-    "venue": ["SIGGRAPH_TOG"]
-  },
-  "img":"publication_images/anonymous.png"
-}, 
-    { 
-"name":"anonymous", 
-"ref":"", 
-"conference":"NIPS(Under review)", 
-"author":[
-    {
-        "name":"Zhiqi Li"
-    },
-    {
-        "name":"anonymous"
-    }
- ],
- "description":"Fast Generation",
- "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["Diffusion_Flow_Matching"], 
-    "venue": ["NIPS"]
-  },
-  "img":"publication_images/anonymous.png"
-}, 
-{ 
-"name":"A Long-Short Flow-Map Perspective for Drifting Models", 
-"ref":"", 
-"conference":"arxiv", 
-"author":[
-    {
-        "name":"Zhiqi Li"
-    },
-    {
-        "name":"Bo Zhu"
-    }
- ],
- "description":"Understanding Drifting Model from the perspective of flow maps",
- "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["Diffusion_Flow_Matching"], 
-    "venue": ["arxiv"]
-  },
-  "img":"publication_images/long_short_flow_map.png"
-},  
-  { 
-"name":"A Few-Step Generative Model on Cumulative Flow Maps", 
-"ref":"A Few-Step Generative Model on Cumulative Flow Maps", 
-"conference":"SIGGRAPH 2026(Journal, Video Trailer)", 
-"author":[
-    {
-        "name":"Zhiqi Li*"
-    },
-    {
-        "name":"Duowen Chen*"
-    },
-    {
-        "name":"Yuchen Sun*"
-    },
-    {
-        "name":"Bo ZHu"
-    }
- ],
- "description":"Fast Few Step Generation for Computer Graphics Task, including 3D Gemoetry, Point Cloud, Sketch Generation, Geometry Encoding",
- "cofirst":true,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["computer_graphics","deep_learning"], 
-    "venue": ["SIGGRAPH_TOG"]
-  },
-  "img":"publication_images/cumulative_flow_map.png"
-},   
-  
-{ 
-"name":"Trajectory Consistency for One-Step Generation on Euler Mean Flows", 
-"ref":"https://www.arxiv.org/abs/2602.02571", 
-"conference":"ICML 2026", 
-"author":[
-    {
-        "name":"Zhiqi Li"
-    },
-    {
-        "name":"Yuchen Sun"
-    },
-    {
-        "name":"Duowen Chen"
-    },
+  {
+    "name": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
+    "ref": "https://zhiqili-cg.github.io/RecursiveCWM/",
+    "conference": "arxiv",
+    "author": [
       {
-        "name":"Jinjin He"
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Yuxuan Liao"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "Reconstruct complex 3D worlds as recursive scene programs, where each subproblem invokes the same generation–rendering–verification–refinement solver.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "World_Model",
+        "Agentic_AI"
+      ],
+      "venue": [
+        "arxiv"
+      ]
     },
-    {
-        "name":"Bo Zhu"
+    "img": "publication_images/recursive_code_world_model.png",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.11499",
+      "project": "https://zhiqili-cg.github.io/RecursiveCWM/"
     }
- ],
- "description":"One-step flow matching for image/3D shape generation. Stable, Fast and Broader Application without JVPs",
- "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["Diffusion_Flow_Matching"], 
-    "venue": ["ICML"]
   },
-  "img":"publication_images/trajectory_consistency.png"
-},  
- { 
-"name":"Functional Mean Flow in Hilbert Space", 
-"ref":"https://arxiv.org/pdf/2511.12898", 
-"conference":"CVPR 2026", 
-"author":[
-    {
-        "name":"Zhiqi Li"
+  {
+    "name": "Flow-Map GRPO: Reinforcement Learning for Few-Step Flow-Map Generators via Anchored Stochastic Composition",
+    "ref": "https://arxiv.org/abs/2607.00535",
+    "conference": "arxiv",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Wen Zhang"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "Make flow maps (MeanFlow, Consistency Model, etc) stochastic for RL post training, like GRPO",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "Diffusion_Flow_Matching"
+      ],
+      "venue": [
+        "arxiv"
+      ]
     },
-    {
-        "name":"Yuchen Sun"
-    },
-    {
-        "name":"Greg Turk"
-    },
-    {
-        "name":"Bo Zhu"
+    "img": "publication_images/flowmap_grpo.png",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.00535"
     }
- ],
- "description":"One-step flow matching for image/3D shape generation",
- "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["Diffusion_Flow_Matching"], 
-    "venue": ["CVPR"]
   },
-  "img":"publication_images/meanflow.png"
-},  
-{ 
-"name":"An Impulse-formed Navier-Stokes Solver based on Long-range Particle Flow Maps", 
-"ref":"", 
-"conference":"Under review - Journal of Computational Physics", 
-"author":[
-    {
-        "name":"Zhiqi Li*"
+  {
+    "name": "anonymous",
+    "ref": "",
+    "conference": "SIGGRAPH Asia (Conditional Accept)",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Jinjin He"
+      },
+      {
+        "name": "Duowen Chen"
+      },
+      {
+        "name": "Ruicheng Wang"
+      },
+      {
+        "name": "Shenyifan Lu"
+      },
+      {
+        "name": "Yuchen Sun"
+      },
+      {
+        "name": "Sinan Wang"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "Fast Generation",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "Diffusion_Flow_Matching"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
     },
-    {
-        "name":"Duowen Chen*"
+    "img": "publication_images/anonymous.png"
+  },
+  {
+    "name": "anonymous",
+    "ref": "",
+    "conference": "NIPS(Under review)",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "anonymous"
+      }
+    ],
+    "description": "Fast Generation",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "Diffusion_Flow_Matching"
+      ],
+      "venue": [
+        "NIPS"
+      ]
     },
-    {
-        "name":"Junwei Zhou*"
+    "img": "publication_images/anonymous.png"
+  },
+  {
+    "name": "A Long-Short Flow-Map Perspective for Drifting Models",
+    "ref": "",
+    "conference": "arxiv",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "Understanding Drifting Model from the perspective of flow maps",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "Diffusion_Flow_Matching"
+      ],
+      "venue": [
+        "arxiv"
+      ]
     },
-    {
-        "name":"Sinan Wang"
+    "img": "publication_images/long_short_flow_map.png"
+  },
+  {
+    "name": "A Few-Step Generative Model on Cumulative Flow Maps",
+    "ref": "A Few-Step Generative Model on Cumulative Flow Maps",
+    "conference": "SIGGRAPH 2026(Journal, Video Trailer)",
+    "author": [
+      {
+        "name": "Zhiqi Li*"
+      },
+      {
+        "name": "Duowen Chen*"
+      },
+      {
+        "name": "Yuchen Sun*"
+      },
+      {
+        "name": "Bo ZHu"
+      }
+    ],
+    "description": "Fast Few Step Generation for Computer Graphics Task, including 3D Gemoetry, Point Cloud, Sketch Generation, Geometry Encoding",
+    "cofirst": true,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "computer_graphics",
+        "deep_learning"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
     },
-    {
-        "name":"Yuchen Sun"
+    "img": "publication_images/cumulative_flow_map.png"
+  },
+  {
+    "name": "Trajectory Consistency for One-Step Generation on Euler Mean Flows",
+    "ref": "https://www.arxiv.org/abs/2602.02571",
+    "conference": "ICML 2026",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Yuchen Sun"
+      },
+      {
+        "name": "Duowen Chen"
+      },
+      {
+        "name": "Jinjin He"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "One-step flow matching for image/3D shape generation. Stable, Fast and Broader Application without JVPs",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "Diffusion_Flow_Matching"
+      ],
+      "venue": [
+        "ICML"
+      ]
     },
-    {
-        "name":"Bo Zhu"
+    "img": "publication_images/trajectory_consistency.png",
+    "links": {
+      "paper": "https://www.arxiv.org/abs/2602.02571"
     }
- ],
- "description":"Physical View for Flow Map Method",
- "cofirst":true,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["computational_physics"], 
-    "venue": ["arxiv"]
   },
-  "img":"publication_images/pfm_jcp.png"
-}, 
-    { 
-"name":"Improving Model Fusion by Training-time Neuron Alignment with Fixed Neuron Anchors", 
-"ref":"https://ieeexplore.ieee.org/document/11214255", 
-"conference":"Transactions on Pattern Analysis and Machine Intelligence(TPAMI)", 
-"author":[
-    {
-        "name":"Zexi Li"
+  {
+    "name": "Functional Mean Flow in Hilbert Space",
+    "ref": "https://arxiv.org/pdf/2511.12898",
+    "conference": "CVPR 2026",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Yuchen Sun"
+      },
+      {
+        "name": "Greg Turk"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "One-step flow matching for image/3D shape generation",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "Diffusion_Flow_Matching"
+      ],
+      "venue": [
+        "CVPR"
+      ]
     },
-    {
-        "name":"Zhiqi Li"
-    },
-    {
-        "name":"Jie Lin, Tao Shen, Tao Lin"
-    },
-    {
-        "name":"Chao Wu"
+    "img": "publication_images/meanflow.png",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2511.12898"
     }
- ],
- "description":"Introducing training-time neuron alignment as a scalable paradigm for robust model fusion and federated learning.",
- "cofirst":false,
- "tags": {
-    "authorship": ["others"],     
-    "area": ["deep_learning"], 
-    "venue": ["TPAMI"]
   },
-  "img":"publication_images/improving_li_2025.jpg"
-},  
-    { 
-"name":" Fluid simulation on flow maps", 
-"ref":"https://repository.gatech.edu/entities/publication/7fabb637-8d4b-481e-aa33-f41755e9b50c", 
-"conference":"Gatech Master Thesis", 
-"author":[
-    {
-        "name":"Zhiqi Li"
+  {
+    "name": "An Impulse-formed Navier-Stokes Solver based on Long-range Particle Flow Maps",
+    "ref": "",
+    "conference": "Under review - Journal of Computational Physics",
+    "author": [
+      {
+        "name": "Zhiqi Li*"
+      },
+      {
+        "name": "Duowen Chen*"
+      },
+      {
+        "name": "Junwei Zhou*"
+      },
+      {
+        "name": "Sinan Wang"
+      },
+      {
+        "name": "Yuchen Sun"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "Physical View for Flow Map Method",
+    "cofirst": true,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "computational_physics"
+      ],
+      "venue": [
+        "arxiv"
+      ]
+    },
+    "img": "publication_images/pfm_jcp.png"
+  },
+  {
+    "name": "Improving Model Fusion by Training-time Neuron Alignment with Fixed Neuron Anchors",
+    "ref": "https://ieeexplore.ieee.org/document/11214255",
+    "conference": "Transactions on Pattern Analysis and Machine Intelligence(TPAMI)",
+    "author": [
+      {
+        "name": "Zexi Li"
+      },
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Jie Lin, Tao Shen, Tao Lin"
+      },
+      {
+        "name": "Chao Wu"
+      }
+    ],
+    "description": "Introducing training-time neuron alignment as a scalable paradigm for robust model fusion and federated learning.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "others"
+      ],
+      "area": [
+        "deep_learning"
+      ],
+      "venue": [
+        "TPAMI"
+      ]
+    },
+    "img": "publication_images/improving_li_2025.jpg",
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/11214255"
     }
- ],
- "description":"This thesis advances vortex-preserving flow-map fluid simulation by improving its core methodology, extending it to solid coupling, particle-laden flows, compressible fluids, and free surfaces, and enhancing its computational efficiency to achieve state-of-the-art results across diverse phenomena.",
- "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["computer_graphics"], 
-    "venue": ["thesis"]
   },
-  "img":"publication_images/pfm_thesis.png"
-},  
-{ 
-"name":"An Adjoint Method for Differentiable Fluid Simulation on Flow Maps", 
-"ref":"https://pearseven.github.io/DiffFMProject", 
-"conference":"SIGGRAPH Asia 2025 (Accept as Conference Paper)", 
-"author":[
-    {
-        "name":"Zhiqi Li*"
+  {
+    "name": " Fluid simulation on flow maps",
+    "ref": "https://repository.gatech.edu/entities/publication/7fabb637-8d4b-481e-aa33-f41755e9b50c",
+    "conference": "Gatech Master Thesis",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      }
+    ],
+    "description": "This thesis advances vortex-preserving flow-map fluid simulation by improving its core methodology, extending it to solid coupling, particle-laden flows, compressible fluids, and free surfaces, and enhancing its computational efficiency to achieve state-of-the-art results across diverse phenomena.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "computer_graphics"
+      ],
+      "venue": [
+        "thesis"
+      ]
     },
-    {
-        "name":"Jinjin He*"
-    },
-    {
-        "name":"Barnabás Börcsök"
-    },
-    {
-        "name":"Taiyuan Zhang"
-    },
-    {
-        "name":"Duowen Chen"
-    },
-    {
-        "name":"Tao Du"
+    "img": "publication_images/pfm_thesis.png",
+    "links": {
+      "paper": "https://repository.gatech.edu/entities/publication/7fabb637-8d4b-481e-aa33-f41755e9b50c"
     }
-    ,
-    {
-        "name":"Ming Lin"
+  },
+  {
+    "name": "An Adjoint Method for Differentiable Fluid Simulation on Flow Maps",
+    "ref": "https://pearseven.github.io/DiffFMProject",
+    "conference": "SIGGRAPH Asia 2025 (Accept as Conference Paper)",
+    "author": [
+      {
+        "name": "Zhiqi Li*"
+      },
+      {
+        "name": "Jinjin He*"
+      },
+      {
+        "name": "Barnabás Börcsök"
+      },
+      {
+        "name": "Taiyuan Zhang"
+      },
+      {
+        "name": "Duowen Chen"
+      },
+      {
+        "name": "Tao Du"
+      },
+      {
+        "name": "Ming Lin"
+      },
+      {
+        "name": "Greg Turk"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "A bidirectional flow-map–based adjoint solver that enables long-range, accurate, and memory-efficient differentiation of incompressible fluid simulations.",
+    "cofirst": true,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "computer_graphics",
+        "deep_learning"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
     },
-    {
-        "name":"Greg Turk"
-    },
-    {
-        "name":"Bo Zhu"
+    "img": "publication_images/adjoint_li_2025.jpg",
+    "links": {
+      "project": "https://pearseven.github.io/DiffFMProject"
     }
- ],
- "description":"A bidirectional flow-map–based adjoint solver that enables long-range, accurate, and memory-efficient differentiation of incompressible fluid simulations.",
- "cofirst":true,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["computer_graphics","deep_learning"], 
-    "venue": ["SIGGRAPH_TOG"]
   },
-  "img":"publication_images/adjoint_li_2025.jpg"
-},    
-{ 
-"name":"FedGuCci: Making Local Models More Connected in Landscape for Federated Learning", 
-"ref":"https://dl.acm.org/doi/10.1145/3711896.3737037", 
-"conference":"SIGKDD 2025", 
-"author":[
-    {
-        "name":"Zexi Li*",
-        "ref":"https://zexilee.github.io/about-zexili/"
+  {
+    "name": "FedGuCci: Making Local Models More Connected in Landscape for Federated Learning",
+    "ref": "https://dl.acm.org/doi/10.1145/3711896.3737037",
+    "conference": "SIGKDD 2025",
+    "author": [
+      {
+        "name": "Zexi Li*",
+        "ref": "https://zexilee.github.io/about-zexili/"
+      },
+      {
+        "name": "Jie Lin*"
+      },
+      {
+        "name": "Zhiqi Li*"
+      },
+      {
+        "name": "Didi Zhu"
+      },
+      {
+        "ref": "https://wuchaozju.github.io/",
+        "name": "Chao Wu"
+      }
+    ],
+    "description": "Improving federated learning generalization by enhancing group connectivity with fixed anchors, enabling more robust model fusion across heterogeneous clients.",
+    "cofirst": true,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "deep_learning"
+      ],
+      "venue": [
+        "SIGKDD"
+      ]
     },
-    {
-        "name":"Jie Lin*"
-    },
-    {
-        "name":"Zhiqi Li*"
-    },
-    {
-        "name":"Didi Zhu"
-    },
-    {
-        "ref":"https://wuchaozju.github.io/",
-        "name":"Chao Wu"
+    "img": "publication_images/improving_li_2025_b.jpg",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3711896.3737037"
     }
- ],
- "description":"Improving federated learning generalization by enhancing group connectivity with fixed anchors, enabling more robust model fusion across heterogeneous clients.",
- "cofirst":true,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["deep_learning"], 
-    "venue": ["SIGKDD"]
   },
-  "img":"publication_images/improving_li_2025_b.jpg"
-},
-{ 
-    "name":"Fluid Simulation on Compressible Flow Maps", 
-    "ref":"https://cdwj.github.io/projects/compressible-flowmap-project-page/index.html", 
-    "conference":"SIGGRAPH,2025 (ACM Transactions on Graphics)", 
-    "author":[
-       {
-            "name":"Duowen Chen*"
-        },
-        {
-            "name":"Zhiqi Li*"
-        },
-        {
-            "name":"Taiyuan Zhang"
-        },
-        {
-            "name":"Jinjin He"
-        },
-        {
-            "name":"Junwei Zhou"
-        },
-        {
-            "name":"Bart G. Van Bloemen Waanders"
-        },
-        {
-            "name":"Bo Zhu"
-        }
-        ],
-        "description":"A unified compressible flow-map framework that simulates high-Mach, weakly compressible, and incompressible-through-acoustics systems within a single Lagrangian path–integral formulation.",
-        "cofirst":true,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["computer_graphics"], 
-    "venue": ["SIGGRAPH_TOG"]
-  },
-  "img":"publication_images/pfm_compressible.png"
-},
-    { 
-    "name":"EDGE: Epsilon-Difference Gradient Evolution for Buffer-Free Flow Maps", 
-    "ref":"https://pearseven.github.io/EDGEProject/", 
-    "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics)", 
-    "author":[
-        {
-            "name":"Zhiqi Li*"
-        },
-        {
-            "name":"Ruicheng Wang*"
-        },
-        {
-            "name":"Junlin Li*"
-        },
-        {
-            "name":"Duowen Chen"
-        },
-        {
-            "name":"Sinan Wang"
-        },
-            {
-            "name":"Bo Zhu"
-        }
-        ],
-        "description":"A memory-efficient flow-map solver that combines Gradient Evolution and an Epsilon Difference scheme to compute high-order derivatives with O(1) memory while preserving vortical accuracy.",
-        "cofirst":true,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["computer_graphics"], 
-    "venue": ["SIGGRAPH_TOG"]
-  },
-  "img":"publication_images/pfm_edge.png"
-},
-    { 
-    "name":"Clebsch Gauge Fluid on Particle Flow Maps", 
-    "ref":"https://pearseven.github.io/PFMClebschProject/", 
-    "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics), Honorable Mention for Best Paper Award!", 
-    "author":[
-        {
-            "name":"Zhiqi Li"
-        },
-        {
-            "name":"Candong Lin"
-        },
-        {
-            "name":"Duowen Chen"
-        },
-        {
-            "name":"Xinyi Zhou"
-        },
-        {
-            "name":"Shiying Xiong"
-        },
-        {
-            "name":"Bo Zhu"
-        }
-        ],
-        "description":"A Clebsch-based gauge fluid solver on particle flow maps that enables accurate wave-function transport and superior preservation of fine-scale vortical structures.",
-        "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["computer_graphics"], 
-    "venue": ["SIGGRAPH_TOG"]
-  },
-  "img":"publication_images/pfm_clebsch.png"
-},
-    { 
-    "name":"Leapfrog Flow Maps for Real-Time Fluid Simulation", 
-    "ref":"https://yuchen-sun-cg.github.io/projects/lfm/", 
-    "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics)", 
-    "author":[
-        {
-            "name":"Yuchen Sun"
-        },
-        {
-            "name":"Junlin Li"
-        },
-        {
-            "name":"Ruicheng Wang"
-        },
-        {
-            "name":"Sinan Wang"
-        },
-        {
-            "name":"Zhiqi Li"
-        },
-        {
-            "name":"Bart G. van Bloemen Waanders"
-        },
-        {
-            "name":"Bo Zhu"
-        }
-        ],
-        "description":"A real-time incompressible fluid solver that uses leapfrog-enhanced flow maps and a GPU-optimized AMGPCG projection to preserve rich vortical detail at high efficiency.",
-        "cofirst":false,
- "tags": {
-    "authorship": ["others"],     
-    "area": ["computer_graphics"], 
-    "venue": ["SIGGRAPH_TOG"]
-  },
-  "img":"publication_images/pfm_leapfrog.png"
-},
-    { 
-    "name":"Fluid Simulation on Vortex Particle Flow Maps", 
-    "ref":"https://vpfm.sinanw.com/", 
-    "conference":"SIGGRAPH,2025  (ACM Transactions on Graphics)", 
-    "author":[
-        {
-            "name":"Sinan Wang"
-        },
-        {
-            "name":"Junwei Zhou"
-        },
-        {
-            "name":"Fan Feng"
-        },
-        {
-            "name":"Zhiqi Li"
-        },
-        {
-            "name":"Yuchen Sun"
-        },
-        {
-            "name":"Duowen Chen"
-        },
-        {
-            "name":"Greg Turk"
-        },
-        {
-            "name":"Bo Zhu"
-        }
-        ],
-        "description":"A vorticity-based particle flow-map method that achieves much longer flow-map distances and superior vortex preservation for incompressible fluids with dynamic solid boundaries.",
-        "cofirst":false,
- "tags": {
-    "authorship": ["others"],     
-    "area": ["computer_graphics"], 
-    "venue": ["SIGGRAPH_TOG"]
-  },
-  "img":"publication_images/vpfm.png"
-},
-{ 
-    "name":"Particle-Laden Fluid on Flow Maps", 
-    "ref":"https://pearseven.github.io/LadenFlowProject/", 
-    "conference":"SIGGRAPH Asia,2024 (ACM Transactions on Graphics) (Best Paper Award!)", 
-    "author":[
-        {
-            "name":"Zhiqi Li"
-        },
-        {
-            "name":"Duowen Chen"
-        },
-        {
-            "name":"Candong Lin"
-        },
-        {
-            "name":"Jinyuan Liu"
-        },
-        {
-            "name":"Bo Zhu"
-        }
-        ],
-        "description":"A particle-flow-map framework for Navier–Stokes ink simulation that couples physical and virtual particles to capture viscous, particle-laden flows with high-fidelity ink diffusion and breakup phenomena.",
-        "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["computer_graphics"], 
-    "venue": ["SIGGRAPH_TOG"]
-  },
-  "img":"publication_images/pfm_laden.jpg"
-},
-{ 
-    "name":"Solid-Fluid Interaction on Particle Flow Maps", 
-    "ref":"https://cdwj.github.io/projects/pfm-sfi-project-page/index.html", 
-    "conference":"SIGGRAPH Asia,2024 (ACM Transactions on Graphics)", 
-    "author":[
-        {
-            "name":"Duowen Chen"
-        },
-        {
-            "name":"Zhiqi Li"
-        },
-        {
-            "name":"Junwei Zhou"
-        },
-        {
-            "name":"Fan Feng"
-        },
-        {
-            "name":"Tao Du"
-        },
-        {
-            "name":"Bo Zhu"
-        }
-        ],
-        "description":"A unified particle–flow-map framework for solid–fluid coupling that transfers impulse and accumulates forces along flow-map paths, enabling vortical solid–fluid interactions with high fidelity.",
-        "cofirst":false,
- "tags": {
-    "authorship": ["others"],     
-    "area": ["computer_graphics"], 
-    "venue": ["SIGGRAPH_TOG"]
-  },
-  "img":"publication_images/pfm_sfi2.png"
-},
-{ 
-"name":"Lagrangian Covector Fluid with Free Surface", 
-"ref":"https://zhiqili-cg.github.io/CovectorFluidFreeSurface/", 
-"conference":"SIGGRAPH,2024 (Dual Track)", 
-"author":[
-    {
-        "name":"Zhiqi Li"
+  {
+    "name": "Fluid Simulation on Compressible Flow Maps",
+    "ref": "https://cdwj.github.io/projects/compressible-flowmap-project-page/index.html",
+    "conference": "SIGGRAPH,2025 (ACM Transactions on Graphics)",
+    "author": [
+      {
+        "name": "Duowen Chen*"
+      },
+      {
+        "name": "Zhiqi Li*"
+      },
+      {
+        "name": "Taiyuan Zhang"
+      },
+      {
+        "name": "Jinjin He"
+      },
+      {
+        "name": "Junwei Zhou"
+      },
+      {
+        "name": "Bart G. Van Bloemen Waanders"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "A unified compressible flow-map framework that simulates high-Mach, weakly compressible, and incompressible-through-acoustics systems within a single Lagrangian path–integral formulation.",
+    "cofirst": true,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "computer_graphics"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
     },
-    {
-        "name":"Barney (Barnabás) Börcsök"
-    },
-    {
-        "name":"Duowen Chen"
-    },
-    {
-        "name":"Yutong Sun"
-    },
-    {
-        "ref":"https://faculty.cc.gatech.edu/~bozhu/",
-        "name":"Bo Zhu"
-    },
-    {
-        "ref":"https://faculty.cc.gatech.edu/~turk/",
-        "name":"Greg Turk"
+    "img": "publication_images/pfm_compressible.png",
+    "links": {
+      "project": "https://cdwj.github.io/projects/compressible-flowmap-project-page/index.html"
     }
- ],
- "description":"A covector flow-map fluid solver that reformulates projection via path integrals, enabling robust and accurate incompressible simulations with complex free-surface and solid boundaries.",
- "cofirst":false,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["computer_graphics"], 
-    "venue": ["SIGGRAPH_TOG"]
   },
-  "img":"publication_images/lag_covector.jpg"
-},
-{ 
-"name":"Swift Parameter-free Attention Network for Efficient Super-Resolution.", 
-"ref":"https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Wan_Swift_Parameter-free_Attention_Network_for_Efficient_Super-Resolution_CVPRW_2024_paper.pdf", 
-"conference":"CVPR workshop(NTIRE),2024", 
-"author":[
-    {
-        "name":"Cheng Wan*",
-        "ref":"https://jornywan.github.io/"
+  {
+    "name": "EDGE: Epsilon-Difference Gradient Evolution for Buffer-Free Flow Maps",
+    "ref": "https://pearseven.github.io/EDGEProject/",
+    "conference": "SIGGRAPH,2025  (ACM Transactions on Graphics)",
+    "author": [
+      {
+        "name": "Zhiqi Li*"
+      },
+      {
+        "name": "Ruicheng Wang*"
+      },
+      {
+        "name": "Junlin Li*"
+      },
+      {
+        "name": "Duowen Chen"
+      },
+      {
+        "name": "Sinan Wang"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "A memory-efficient flow-map solver that combines Gradient Evolution and an Epsilon Difference scheme to compute high-order derivatives with O(1) memory while preserving vortical accuracy.",
+    "cofirst": true,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "computer_graphics"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
     },
-    {
-        "name":"Hongyuan Yu*"
-    },
-    {
-        "name":"Zhiqi Li*",
-        "ref":"zhiqilicg.github.io"
-    },
-    {
-        "name":"Yihang Chen"
-    },
-    {
-        "name":"Yajun Zou"
-    },
-    {
-        "name":"Yuqing Liu"
-    },
-    {
-        "name":"Xuanwu Yin"
-    },
-    {
-        "name":"Kunlong Zuo"
+    "img": "publication_images/pfm_edge.png",
+    "links": {
+      "project": "https://pearseven.github.io/EDGEProject/"
     }
- ],
- "description":"A parameter-free attention super-resolution network that delivers state-of-the-art quality–speed trade-offs and wins both tracks of the NTIRE 2024 efficient SR challenge.",
- "cofirst":true,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["deep_learning"], 
-    "venue": ["CVPR"]
   },
-  "img":"publication_images/wan_swift_2023.jpg"
-},
-{ 
-"name":"RemoteTouch: Enhancing Immersive 3D Video Communication with Hand Touch.", 
-"ref":"https://www.computer.org/csdl/proceedings-article/vr/2023/481500a001/1MNgTT89hni", 
-"conference":"IEEE VR,2023", 
-"author":[
-    {
-        "name":"Yizhong Zhang*",
-        "ref":"https://www.microsoft.com/en-us/research/people/yizzhan/"
+  {
+    "name": "Clebsch Gauge Fluid on Particle Flow Maps",
+    "ref": "https://pearseven.github.io/PFMClebschProject/",
+    "conference": "SIGGRAPH,2025  (ACM Transactions on Graphics), Honorable Mention for Best Paper Award!",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Candong Lin"
+      },
+      {
+        "name": "Duowen Chen"
+      },
+      {
+        "name": "Xinyi Zhou"
+      },
+      {
+        "name": "Shiying Xiong"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "A Clebsch-based gauge fluid solver on particle flow maps that enables accurate wave-function transport and superior preservation of fine-scale vortical structures.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "computer_graphics"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
     },
-    {
-        "name":"Zhiqi Li*",
-        "ref":"zhiqilicg.github.io"
-    },
-    {
-        "ref":"https://www.linkedin.com/in/sicheng-xu-b4b0a415b/?originalSubdomain=cn/",
-        "name":"Sicheng Xu"
-    },
-    {
-        "name":"Chong Li"
-    },
-    {
-        "ref":"https://jlyang.org",
-        "name":"Jiaolong Yang"
-    },
-    {
-        "name":"Xin Tong",
-        "ref":"https://www.microsoft.com/en-us/research/people/xtong/"
-    },
-    {
-        "name":"Baining Guo",
-        "ref":"https://www.microsoft.com/en-us/research/people/bainguo/"
+    "img": "publication_images/pfm_clebsch.png",
+    "links": {
+      "project": "https://pearseven.github.io/PFMClebschProject/"
     }
- ],
- "description":"A dual hand-representation system enabling realistic remote hand-touch interaction (“virtual hand clapping”) for immersive 3D video communication.",
- "cofirst":true,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["computer_graphics"], 
-    "venue": ["VR"]
   },
-  "img":"publication_images/remote_zhang_2023.jpg"
-},
-{ 
-"name":"Federated Learning with Label Distribution Skew via Logits Calibration.", 
-"ref":"https://proceedings.mlr.press/v162/zhang22p.html", 
-"conference":"ICML spotlight,2022", 
-"author":[
-    {
-        "name":"Jie Zhang",
-        "ref":"https://zj-jayzhang.github.io/"
+  {
+    "name": "Leapfrog Flow Maps for Real-Time Fluid Simulation",
+    "ref": "https://yuchen-sun-cg.github.io/projects/lfm/",
+    "conference": "SIGGRAPH,2025  (ACM Transactions on Graphics)",
+    "author": [
+      {
+        "name": "Yuchen Sun"
+      },
+      {
+        "name": "Junlin Li"
+      },
+      {
+        "name": "Ruicheng Wang"
+      },
+      {
+        "name": "Sinan Wang"
+      },
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Bart G. van Bloemen Waanders"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "A real-time incompressible fluid solver that uses leapfrog-enhanced flow maps and a GPU-optimized AMGPCG projection to preserve rich vortical detail at high efficiency.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "others"
+      ],
+      "area": [
+        "computer_graphics"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
     },
-    {
-        "name":"Zhiqi Li",
-        "ref":"zhiqilicg.github.io"
-    },
-    {
-        "name":"Bo Li"
-    },
-    {
-        "name":"Jianghe Xu"
-    },
-    {
-        "name":"Shuang Wu"
-    },
-    {
-        "name":"Shouhong Ding"
-    },
-    {
-        "name":"Chao Wu",
-        "ref":"https://wuchaozju.github.io/"
+    "img": "publication_images/pfm_leapfrog.png",
+    "links": {
+      "project": "https://yuchen-sun-cg.github.io/projects/lfm/"
     }
- ],
- "description":"A logits-calibrated federated learning method that corrects label-distribution skew and significantly improves global accuracy under heterogeneous clients.",
- "cofirst":false,
- "tags": {
-    "authorship": ["others"],     
-    "area": ["deep_learning"], 
-    "venue": ["ICML"]
   },
-  "img":"publication_images/federated_zhang_2023.jpg"
-},
-{ 
-"name":"Unveiling Linear Mode Connectivity of Re-basin from Neuron Distribution Perspective.", 
-"ref":"https://openreview.net/forum?id=RzOm9oOSzm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)", 
-"conference":"preprint", 
-"author":[
-    {
-        "name":"Zhiqi Li*"
+  {
+    "name": "Fluid Simulation on Vortex Particle Flow Maps",
+    "ref": "https://vpfm.sinanw.com/",
+    "conference": "SIGGRAPH,2025  (ACM Transactions on Graphics)",
+    "author": [
+      {
+        "name": "Sinan Wang"
+      },
+      {
+        "name": "Junwei Zhou"
+      },
+      {
+        "name": "Fan Feng"
+      },
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Yuchen Sun"
+      },
+      {
+        "name": "Duowen Chen"
+      },
+      {
+        "name": "Greg Turk"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "A vorticity-based particle flow-map method that achieves much longer flow-map distances and superior vortex preservation for incompressible fluids with dynamic solid boundaries.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "others"
+      ],
+      "area": [
+        "computer_graphics"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
     },
-    {
-        "ref":"https://zexilee.github.io/about-zexili/",
-        "name":"Zexi Li*"
-    },
-    {
-        "name":"Mian Wu*",
-        "ref":"https://www.linkedin.com/in/mian-wu-65264024b/"
-    },
-    {
-        "name":"Cheng Wan*",
-        "ref":"https://jornywan.github.io/"
-    },
-    {
-        "ref":"https://wuchaozju.github.io/",
-        "name":"Chao Wu"
+    "img": "publication_images/vpfm.png",
+    "links": {
+      "project": "https://vpfm.sinanw.com/"
     }
- ],
- "description":"A neuron-distribution theory of re-basining that explains when and why permutation alignment improves linear mode connectivity—and guides better neuron alignment across methods like OTFusion and FedMA.",
- "cofirst":true,
- "tags": {
-    "authorship": ["first_author"],     
-    "area": ["deep_learning"], 
-    "venue": ["arxiv"]
   },
-  "img":"publication_images/federated_li_2023.jpg"
-}
+  {
+    "name": "Particle-Laden Fluid on Flow Maps",
+    "ref": "https://pearseven.github.io/LadenFlowProject/",
+    "conference": "SIGGRAPH Asia,2024 (ACM Transactions on Graphics) (Best Paper Award!)",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Duowen Chen"
+      },
+      {
+        "name": "Candong Lin"
+      },
+      {
+        "name": "Jinyuan Liu"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "A particle-flow-map framework for Navier–Stokes ink simulation that couples physical and virtual particles to capture viscous, particle-laden flows with high-fidelity ink diffusion and breakup phenomena.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "computer_graphics"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
+    },
+    "img": "publication_images/pfm_laden.jpg",
+    "links": {
+      "project": "https://pearseven.github.io/LadenFlowProject/"
+    }
+  },
+  {
+    "name": "Solid-Fluid Interaction on Particle Flow Maps",
+    "ref": "https://cdwj.github.io/projects/pfm-sfi-project-page/index.html",
+    "conference": "SIGGRAPH Asia,2024 (ACM Transactions on Graphics)",
+    "author": [
+      {
+        "name": "Duowen Chen"
+      },
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Junwei Zhou"
+      },
+      {
+        "name": "Fan Feng"
+      },
+      {
+        "name": "Tao Du"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "A unified particle–flow-map framework for solid–fluid coupling that transfers impulse and accumulates forces along flow-map paths, enabling vortical solid–fluid interactions with high fidelity.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "others"
+      ],
+      "area": [
+        "computer_graphics"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
+    },
+    "img": "publication_images/pfm_sfi2.png",
+    "links": {
+      "project": "https://cdwj.github.io/projects/pfm-sfi-project-page/index.html"
+    }
+  },
+  {
+    "name": "Lagrangian Covector Fluid with Free Surface",
+    "ref": "https://zhiqili-cg.github.io/CovectorFluidFreeSurface/",
+    "conference": "SIGGRAPH,2024 (Dual Track)",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Barney (Barnabás) Börcsök"
+      },
+      {
+        "name": "Duowen Chen"
+      },
+      {
+        "name": "Yutong Sun"
+      },
+      {
+        "ref": "https://faculty.cc.gatech.edu/~bozhu/",
+        "name": "Bo Zhu"
+      },
+      {
+        "ref": "https://faculty.cc.gatech.edu/~turk/",
+        "name": "Greg Turk"
+      }
+    ],
+    "description": "A covector flow-map fluid solver that reformulates projection via path integrals, enabling robust and accurate incompressible simulations with complex free-surface and solid boundaries.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "computer_graphics"
+      ],
+      "venue": [
+        "SIGGRAPH_TOG"
+      ]
+    },
+    "img": "publication_images/lag_covector.jpg",
+    "links": {
+      "project": "https://zhiqili-cg.github.io/CovectorFluidFreeSurface/"
+    }
+  },
+  {
+    "name": "Swift Parameter-free Attention Network for Efficient Super-Resolution.",
+    "ref": "https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Wan_Swift_Parameter-free_Attention_Network_for_Efficient_Super-Resolution_CVPRW_2024_paper.pdf",
+    "conference": "CVPR workshop(NTIRE),2024",
+    "author": [
+      {
+        "name": "Cheng Wan*",
+        "ref": "https://jornywan.github.io/"
+      },
+      {
+        "name": "Hongyuan Yu*"
+      },
+      {
+        "name": "Zhiqi Li*",
+        "ref": "zhiqilicg.github.io"
+      },
+      {
+        "name": "Yihang Chen"
+      },
+      {
+        "name": "Yajun Zou"
+      },
+      {
+        "name": "Yuqing Liu"
+      },
+      {
+        "name": "Xuanwu Yin"
+      },
+      {
+        "name": "Kunlong Zuo"
+      }
+    ],
+    "description": "A parameter-free attention super-resolution network that delivers state-of-the-art quality–speed trade-offs and wins both tracks of the NTIRE 2024 efficient SR challenge.",
+    "cofirst": true,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "deep_learning"
+      ],
+      "venue": [
+        "CVPR"
+      ]
+    },
+    "img": "publication_images/wan_swift_2023.jpg",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Wan_Swift_Parameter-free_Attention_Network_for_Efficient_Super-Resolution_CVPRW_2024_paper.pdf"
+    }
+  },
+  {
+    "name": "RemoteTouch: Enhancing Immersive 3D Video Communication with Hand Touch.",
+    "ref": "https://www.computer.org/csdl/proceedings-article/vr/2023/481500a001/1MNgTT89hni",
+    "conference": "IEEE VR,2023",
+    "author": [
+      {
+        "name": "Yizhong Zhang*",
+        "ref": "https://www.microsoft.com/en-us/research/people/yizzhan/"
+      },
+      {
+        "name": "Zhiqi Li*",
+        "ref": "zhiqilicg.github.io"
+      },
+      {
+        "ref": "https://www.linkedin.com/in/sicheng-xu-b4b0a415b/?originalSubdomain=cn/",
+        "name": "Sicheng Xu"
+      },
+      {
+        "name": "Chong Li"
+      },
+      {
+        "ref": "https://jlyang.org",
+        "name": "Jiaolong Yang"
+      },
+      {
+        "name": "Xin Tong",
+        "ref": "https://www.microsoft.com/en-us/research/people/xtong/"
+      },
+      {
+        "name": "Baining Guo",
+        "ref": "https://www.microsoft.com/en-us/research/people/bainguo/"
+      }
+    ],
+    "description": "A dual hand-representation system enabling realistic remote hand-touch interaction (“virtual hand clapping”) for immersive 3D video communication.",
+    "cofirst": true,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "computer_graphics"
+      ],
+      "venue": [
+        "VR"
+      ]
+    },
+    "img": "publication_images/remote_zhang_2023.jpg",
+    "links": {
+      "paper": "https://www.computer.org/csdl/proceedings-article/vr/2023/481500a001/1MNgTT89hni"
+    }
+  },
+  {
+    "name": "Federated Learning with Label Distribution Skew via Logits Calibration.",
+    "ref": "https://proceedings.mlr.press/v162/zhang22p.html",
+    "conference": "ICML spotlight,2022",
+    "author": [
+      {
+        "name": "Jie Zhang",
+        "ref": "https://zj-jayzhang.github.io/"
+      },
+      {
+        "name": "Zhiqi Li",
+        "ref": "zhiqilicg.github.io"
+      },
+      {
+        "name": "Bo Li"
+      },
+      {
+        "name": "Jianghe Xu"
+      },
+      {
+        "name": "Shuang Wu"
+      },
+      {
+        "name": "Shouhong Ding"
+      },
+      {
+        "name": "Chao Wu",
+        "ref": "https://wuchaozju.github.io/"
+      }
+    ],
+    "description": "A logits-calibrated federated learning method that corrects label-distribution skew and significantly improves global accuracy under heterogeneous clients.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "others"
+      ],
+      "area": [
+        "deep_learning"
+      ],
+      "venue": [
+        "ICML"
+      ]
+    },
+    "img": "publication_images/federated_zhang_2023.jpg",
+    "links": {
+      "paper": "https://proceedings.mlr.press/v162/zhang22p.html"
+    }
+  },
+  {
+    "name": "Unveiling Linear Mode Connectivity of Re-basin from Neuron Distribution Perspective.",
+    "ref": "https://openreview.net/forum?id=RzOm9oOSzm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)",
+    "conference": "preprint",
+    "author": [
+      {
+        "name": "Zhiqi Li*"
+      },
+      {
+        "ref": "https://zexilee.github.io/about-zexili/",
+        "name": "Zexi Li*"
+      },
+      {
+        "name": "Mian Wu*",
+        "ref": "https://www.linkedin.com/in/mian-wu-65264024b/"
+      },
+      {
+        "name": "Cheng Wan*",
+        "ref": "https://jornywan.github.io/"
+      },
+      {
+        "ref": "https://wuchaozju.github.io/",
+        "name": "Chao Wu"
+      }
+    ],
+    "description": "A neuron-distribution theory of re-basining that explains when and why permutation alignment improves linear mode connectivity—and guides better neuron alignment across methods like OTFusion and FedMA.",
+    "cofirst": true,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "deep_learning"
+      ],
+      "venue": [
+        "arxiv"
+      ]
+    },
+    "img": "publication_images/federated_li_2023.jpg",
+    "links": {
+      "paper": "https://openreview.net/forum?id=RzOm9oOSzm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)"
+    }
+  }
 ]
