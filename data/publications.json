@@ -31,6 +31,7 @@
     "img": "publication_images/recursive_code_world_model.png",
     "links": {
       "paper": "https://arxiv.org/abs/2609.11499",
+      "code": "https://github.com/ZhiqiLi-CG/RecursiveCWM_code",
       "project": "https://zhiqili-cg.github.io/RecursiveCWM/"
     }
   },
