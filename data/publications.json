@@ -1,8 +1,8 @@
 [
   {
     "name": "FlowMap-OPD: Rollout–Kernel Separation for On-Policy Distillation of Few-Step Flow-Map Generators",
-    "ref": "https://zhiqili-cg.github.io/Flowmap_OPD_project/",
-    "conference": "Preprint, 2026",
+    "ref": "https://arxiv.org/html/2609.37851v1",
+    "conference": "arxiv",
     "author": [
       {
         "name": "Zhiqi Li"
@@ -28,7 +28,8 @@
     "imageFit": "contain",
     "links": {
       "code": "https://github.com/ZhiqiLi-CG/Flowmap_OPD_source",
-      "project": "https://zhiqili-cg.github.io/Flowmap_OPD_project/"
+      "project": "https://zhiqili-cg.github.io/Flowmap_OPD_project/",
+      "paper": "https://arxiv.org/html/2609.37851v1"
     }
   },
   {
