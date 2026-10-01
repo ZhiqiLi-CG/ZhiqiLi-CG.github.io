@@ -86,7 +86,7 @@ function renderPublications(json) {
             // 固定窗口，图片居中裁剪
             img.style.width = "100%";
             img.style.height = "100%";
-            img.style.objectFit = "cover";
+            img.style.objectFit = json[i].imageFit || "cover";
             img.style.objectPosition = "center";
             img.style.borderRadius = "10px";
 
