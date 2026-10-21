@@ -102,9 +102,9 @@
     }
   },
   {
-    "name": "anonymous",
+    "name": "Unified Long-Short Flow Maps for Fast Generation",
     "ref": "",
-    "conference": "SIGGRAPH Asia (Conditional Accept)",
+    "conference": "ACM SIGGRAPH Asia Conference Papers, 2026",
     "author": [
       {
         "name": "Zhiqi Li"
@@ -120,6 +120,9 @@
       },
       {
         "name": "Shenyifan Lu"
+      },
+      {
+        "name": "Yuxuan Liao"
       },
       {
         "name": "Yuchen Sun"
@@ -147,15 +150,21 @@
     "img": "publication_images/anonymous.png"
   },
   {
-    "name": "anonymous",
+    "name": "Physics-Informed One-Step Generation on Long-Short Flow Maps",
     "ref": "",
-    "conference": "NIPS(Under review)",
+    "conference": "arxiv",
     "author": [
       {
         "name": "Zhiqi Li"
       },
       {
-        "name": "anonymous"
+        "name": "Duowen Chen"
+      },
+      {
+        "name": "Jinjin He"
+      },
+      {
+        "name": "Bo Zhu"
       }
     ],
     "description": "Fast Generation",
@@ -168,7 +177,7 @@
         "Diffusion_Flow_Matching"
       ],
       "venue": [
-        "NIPS"
+        "arxiv"
       ]
     },
     "img": "publication_images/anonymous.png"
