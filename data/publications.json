@@ -24,8 +24,8 @@
         "arxiv"
       ]
     },
-    "img": "",
-    "imageFit": "contain",
+    "img": "publication_images/dkv_forcing.jpg",
+    "imageFit": "cover",
     "links": {
       "project": "https://zhiqili-cg.github.io/dKV-Forcing-Project/",
       "code": "https://github.com/ZhiqiLi-CG/dKV-Forcing"
