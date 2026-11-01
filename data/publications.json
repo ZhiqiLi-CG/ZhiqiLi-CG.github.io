@@ -98,6 +98,8 @@
     },
     "img": "publication_images/flowmap_grpo.png",
     "links": {
+      "code": "https://github.com/ZhiqiLi-CG/FlowMap-GRPO",
+      "project": "https://zhiqili-cg.github.io/FlowMap-GRPO-Project/",
       "paper": "https://arxiv.org/abs/2607.00535"
     }
   },
