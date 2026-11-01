@@ -1,5 +1,37 @@
 [
   {
+    "name": "dKV Forcing: Separating Generation and Memory Representations through a Differentiable KV Cache",
+    "ref": "https://zhiqili-cg.github.io/dKV-Forcing-Project/",
+    "conference": "arxiv",
+    "author": [
+      {
+        "name": "Zhiqi Li"
+      },
+      {
+        "name": "Bo Zhu"
+      }
+    ],
+    "description": "Train a causal video generator's memory from its future reads: persistent differentiable KV pages give the exact memory gradient in one traversal, and a writer-specific residual learns what to remember, holding subject, layout and lighting for four minutes from 5 s training clips.",
+    "cofirst": false,
+    "tags": {
+      "authorship": [
+        "first_author"
+      ],
+      "area": [
+        "Diffusion_Flow_Matching"
+      ],
+      "venue": [
+        "arxiv"
+      ]
+    },
+    "img": "",
+    "imageFit": "contain",
+    "links": {
+      "project": "https://zhiqili-cg.github.io/dKV-Forcing-Project/",
+      "code": "https://github.com/ZhiqiLi-CG/dKV-Forcing"
+    }
+  },
+  {
     "name": "FlowMap-OPD: Rollout–Kernel Separation for On-Policy Distillation of Few-Step Flow-Map Generators",
     "ref": "https://arxiv.org/html/2609.37851v1",
     "conference": "arxiv",
