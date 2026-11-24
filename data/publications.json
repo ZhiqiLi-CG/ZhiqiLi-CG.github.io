@@ -1,7 +1,7 @@
 [
   {
     "name": "dKV Forcing: Separating Generation and Memory Representations through a Differentiable KV Cache",
-    "ref": "https://zhiqili-cg.github.io/dKV-Forcing-Project/",
+    "ref": "https://arxiv.org/html/2611.01648v2",
     "conference": "arxiv",
     "author": [
       {
@@ -28,7 +28,8 @@
     "imageFit": "cover",
     "links": {
       "project": "https://zhiqili-cg.github.io/dKV-Forcing-Project/",
-      "code": "https://github.com/ZhiqiLi-CG/dKV-Forcing"
+      "code": "https://github.com/ZhiqiLi-CG/dKV-Forcing"，
+      "paper": "https://arxiv.org/html/2611.01648v2"
     }
   },
   {
